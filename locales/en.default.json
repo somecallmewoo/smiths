@@ -408,5 +408,10 @@
       "add_to_apple_wallet": "Add to Apple Wallet",
       "qr_image_alt": "QR code — scan to redeem gift card"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": "• New & Vintage Eyewear Since 1968"
+    }
   }
 }
