@@ -115,19 +115,19 @@
     "predictive_image_size": "square",
     "show_breadcrumbs": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/smiths-opticians-Houston-glasses-logo.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "large",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_accent_color": "#111111",
-    "checkout_button_color": "#111111",
-    "checkout_error_color": "#ff6d6d",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#00c295",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#de783e",
     "breadcrumb": false,
     "sections": {
       "header": {
@@ -196,30 +196,21 @@
             "settings": {
               "show_footer_title": true,
               "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "text": "<p>Periodic messages and 1st looks.<\/p>",
               "container_width": 33
-            }
-          },
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "logo": "",
-              "desktop_logo_height": 50,
-              "container_width": 95
             }
           }
         },
         "block_order": [
           "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "1494292487693"
         ],
         "settings": {
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
           "show_payment_icons": false,
-          "show_copyright": false,
+          "show_copyright": true,
           "copyright_text": ""
         }
       },
@@ -650,26 +641,26 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "Two line\ntitle slide.",
-              "title_size": 80,
-              "subheading": "And optional subtext",
+              "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\nEyeglasses in Houston",
+              "title_size": 40,
+              "subheading": "",
               "link": "shopify:\/\/collections\/all",
-              "link_text": "Shop this",
-              "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
+              "link_text": "visit us",
+              "link_2": "shopify:\/\/pages\/visit",
+              "link_text_2": "shop online",
               "color_accent": "#000000",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
-              "focal_point": "top center"
+              "image": "shopify:\/\/shop_images\/My_Post_4.jpg",
+              "focal_point": "center center"
             }
           },
           "1524769873765-1": {
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "Two line\ntitle slide.",
-              "title_size": 80,
-              "subheading": "And optional subtext",
+              "title": "&nbsp;\n&nbsp;\n&nbsp;\nFSA & HSA Eligible Expense",
+              "title_size": 40,
+              "subheading": "",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop all",
               "link_2": "shopify:\/\/collections\/all",
@@ -686,10 +677,10 @@
           "1524769873765-1"
         ],
         "settings": {
-          "section_height": "750px",
+          "section_height": "natural",
           "mobile_height": "auto",
-          "parallax": true,
-          "style": "bars",
+          "parallax": false,
+          "style": "arrows",
           "autoplay": true,
           "autoplay_speed": 7
         }
@@ -964,7 +955,7 @@
           "footer-promotions-0"
         ],
         "settings": {
-          "hide_homepage": false,
+          "hide_homepage": true,
           "image_size": "wide"
         }
       },
