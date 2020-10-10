@@ -49,33 +49,33 @@
     "button_style": "square",
     "icon_weight": "3px",
     "icon_linecaps": "miter",
-    "vendor_enable": false,
+    "vendor_enable": true,
     "sku_enable": false,
     "quantity_enable": false,
     "variant_labels_enable": true,
     "variant_type": "button",
     "enable_payment_button": true,
-    "inventory_enable": true,
+    "inventory_enable": false,
     "inventory_threshold": 10,
     "inventory_transfers_enable": false,
-    "product_save_amount": true,
+    "product_save_amount": false,
     "product_save_type": "dollar",
-    "product_zoom_enable": false,
+    "product_zoom_enable": true,
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
-    "product_hover_image": false,
+    "product_hover_image": true,
     "product_color_swatches": false,
     "collection_color_swatches": false,
     "swatch_style": "round",
     "trust_image": "",
-    "product_content_1": "",
+    "product_content_1": "rx-lenses",
     "product_content_collapse_1": true,
     "product_content_2": "",
-    "product_content_collapse_2": true,
+    "product_content_collapse_2": false,
     "product_content_3": "",
-    "product_content_collapse_3": true,
-    "product_contact": false,
+    "product_content_collapse_3": false,
+    "product_contact": true,
     "product_contact_title": "Ask a question",
     "product_contact_show_phone": false,
     "enable_product_reviews": false,
@@ -84,8 +84,8 @@
     "collection_grid_shape": "square",
     "collection_grid_image": "product",
     "collection_grid_text_align": "center",
-    "collection_grid_tint": "#000000",
-    "collection_grid_opacity": 10,
+    "collection_grid_tint": "rgba(0,0,0,0)",
+    "collection_grid_opacity": 0,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
     "cart_icon": "bag",
@@ -227,7 +227,7 @@
         "type": "collection-template",
         "settings": {
           "description_position": "top",
-          "subcollection_style": "above",
+          "subcollection_style": "none",
           "subcollections_per_row": 5,
           "enable_collection_count": true,
           "per_row": 4,
@@ -697,8 +697,8 @@
       "collection-header": {
         "type": "collection-header",
         "settings": {
-          "enable": true,
-          "collection_image_enable": true,
+          "enable": false,
+          "collection_image_enable": false,
           "parallax": true
         }
       },
@@ -710,14 +710,14 @@
             "settings": {
               "enable_subsubcollections": true,
               "enable_count": false,
-              "collapsed": false
+              "collapsed": true
             }
           },
           "1524772580942": {
             "type": "tags_all",
             "settings": {
               "title": "Tags",
-              "collapsed": false
+              "collapsed": true
             }
           }
         },
@@ -727,8 +727,8 @@
         ],
         "settings": {
           "enable_sidebar": true,
-          "filter_style": "sidebar",
-          "tags_combine": false,
+          "filter_style": "drawer",
+          "tags_combine": true,
           "enable_sort": true
         }
       },
@@ -953,43 +953,28 @@
             "settings": {
               "enable_image": true,
               "image": "",
-              "title": "Site-wide promotion",
+              "title": "Site-wide Content",
               "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-1": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "",
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-2": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "",
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
+              "button_label": "Optional button ALL PRODUCTS",
+              "button_link": "shopify:\/\/collections\/all"
             }
           }
         },
         "block_order": [
-          "footer-promotions-0",
-          "footer-promotions-1",
-          "footer-promotions-2"
+          "footer-promotions-0"
         ],
         "settings": {
           "hide_homepage": false,
           "image_size": "wide"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": false,
+          "display_type": "all",
+          "sort": "date_reversed",
+          "grid": "3"
         }
       }
     },
