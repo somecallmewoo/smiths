@@ -641,7 +641,7 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\nEyeglasses in Houston",
+              "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\nEyeglasses in Houston",
               "title_size": 40,
               "subheading": "",
               "link": "shopify:\/\/collections\/all",
@@ -658,17 +658,17 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "&nbsp;\n&nbsp;\n&nbsp;\nFSA & HSA Eligible Expense",
+              "title": " \n \n \n \n \nFSA & HSA <br>Eligible Expense",
               "title_size": 40,
               "subheading": "",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop all",
-              "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
+              "link_2": "shopify:\/\/pages\/visit",
+              "link_text_2": "Visit Us",
               "color_accent": "#000000",
-              "text_align": "vertical-bottom horizontal-left",
-              "image": "",
-              "focal_point": "top center"
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/2020-Smiths-FSA-HSA-Insurance-Glasses.jpg",
+              "focal_point": "bottom center"
             }
           }
         },
@@ -831,54 +831,73 @@
       "1525912530555": {
         "type": "promo-grid",
         "blocks": {
-          "1525912530555-0": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "image": "",
-              "video_url": "",
-              "width": "50",
-              "height": 800,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": true
-            }
-          },
           "1525912530555-1": {
             "type": "advanced",
             "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
+              "subheading": "Unused",
+              "heading": "Vintage Glasses",
+              "textarea": "faves online, 100's of choices in store<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-cat-eye-glasses.png?v=1581400305\" width=\"40%\">",
+              "cta_text1": "Shop Vintage",
+              "cta_link1": "shopify:\/\/collections\/made-in-usa",
+              "cta_text2": "",
               "cta_link2": "",
-              "image": "",
+              "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
               "text_size": 100,
-              "text_align": "vertical-bottom horizontal-center",
+              "text_align": "vertical-center horizontal-center",
               "focal_point": "80% 50%",
               "color_accent": "rgba(0,0,0,0)",
-              "boxed": true,
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "1602380041668": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Independent<br>Designers<\/h2><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-combination-horn-rim-glasses.png?v=1581399719\">",
+              "image": "shopify:\/\/shop_images\/CTA-garrett-leight.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "rgba(0,0,0,0)",
+              "color_tint_opacity": 0,
+              "framed": false
+            }
+          },
+          "1602380133983": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/pages\/visit",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">3rd Ward Houston<br>EST 1968<\/h2><p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-find-our-location.png?v=1581399616\"><\/p>",
+              "image": "shopify:\/\/shop_images\/CTA-visit-us.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 0,
+              "framed": false
+            }
+          },
+          "1602380342912": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/pages\/faq",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Gift Cards<\/h2><br><span style=\"color: #fff; font-size: 2em;\">USE ONLINE OR IN STORE<br><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/cta-submit-arrow.png?v=1581401103\" width=\"50px\">",
+              "image": "shopify:\/\/shop_images\/CTA-orange.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
               "framed": false
             }
           }
         },
         "block_order": [
-          "1525912530555-0",
-          "1525912530555-1"
+          "1602380041668",
+          "1602380133983",
+          "1525912530555-1",
+          "1602380342912"
         ],
         "settings": {
           "full_width": true,
