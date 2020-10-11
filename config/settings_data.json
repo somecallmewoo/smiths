@@ -20,7 +20,7 @@
     "color_footer_text": "#000000",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
-    "color_drawer_border": "#ff0000",
+    "color_drawer_border": "rgba(0,0,0,0)",
     "color_drawer_button": "#74c830",
     "color_drawer_button_text": "#ffffff",
     "color_modal_overlays": "rgba(0,0,0,0)",
@@ -136,18 +136,10 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "",
+              "logo": "shopify:\/\/shop_images\/smiths-opticians-Houston-glasses-logo.png",
               "logo-inverted": "",
-              "desktop_logo_width": 140,
+              "desktop_logo_width": 160,
               "mobile_logo_width": 110
-            }
-          },
-          "1524770292306": {
-            "type": "announcement",
-            "settings": {
-              "text": "Free shipping",
-              "link_text": "On all orders over $100",
-              "link": ""
             }
           },
           "1524770296206": {
@@ -161,7 +153,6 @@
         },
         "block_order": [
           "1524770014057",
-          "1524770292306",
           "1524770296206"
         ],
         "settings": {
@@ -217,7 +208,7 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "description_position": "top",
+          "description_position": "bottom",
           "subcollection_style": "none",
           "subcollections_per_row": 5,
           "enable_collection_count": true,
@@ -274,55 +265,6 @@
           "blog_image_size": "wide"
         }
       },
-      "1499789718857": {
-        "type": "featured-collections",
-        "blocks": {
-          "1499789718857-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1499789718857-0",
-          "1499789718857-1",
-          "1499789718857-2",
-          "1499789718857-3"
-        ],
-        "settings": {
-          "title": "Shop by category",
-          "divider": false,
-          "per_row": 4,
-          "enable_gutter": true
-        }
-      },
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
@@ -331,12 +273,12 @@
           "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
           "button_label": "",
           "button_link": "shopify:\/\/collections\/all",
-          "image": "",
-          "focal_point": "80% 0",
-          "color_border": "#cdb8ac",
-          "layout": "left",
+          "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
+          "focal_point": "20% 0",
+          "color_border": "#00c295",
+          "layout": "right",
           "height": 750,
-          "framed": false,
+          "framed": true,
           "parallax": true
         }
       },
@@ -753,8 +695,8 @@
       "1525295772132": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
+          "title": "MADE IN USA",
+          "home_featured_products": "made-in-usa",
           "per_row": 4,
           "rows": 1,
           "mobile_scrollable": true,
@@ -831,33 +773,11 @@
       "1525912530555": {
         "type": "promo-grid",
         "blocks": {
-          "1525912530555-1": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Unused",
-              "heading": "Vintage Glasses",
-              "textarea": "faves online, 100's of choices in store<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-cat-eye-glasses.png?v=1581400305\" width=\"40%\">",
-              "cta_text1": "Shop Vintage",
-              "cta_link1": "shopify:\/\/collections\/made-in-usa",
-              "cta_text2": "",
-              "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
-              "video_url": "",
-              "width": "50",
-              "height": 500,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "80% 50%",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": false
-            }
-          },
           "1602380041668": {
             "type": "simple",
             "settings": {
               "link": "",
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Independent<br>Designers<\/h2><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-combination-horn-rim-glasses.png?v=1581399719\">",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">See What's<br>NEW<\/h2><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-combination-horn-rim-glasses.png?v=1581399719\">",
               "image": "shopify:\/\/shop_images\/CTA-garrett-leight.jpg",
               "width": "50",
               "height": 300,
@@ -876,6 +796,28 @@
               "height": 300,
               "color_tint": "#000000",
               "color_tint_opacity": 0,
+              "framed": false
+            }
+          },
+          "1525912530555-1": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "new old stock",
+              "heading": "Vintage Glasses",
+              "textarea": "faves online, 100's of choices in store<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-cat-eye-glasses.png?v=1581400305\" width=\"40%\">",
+              "cta_text1": "Shop Vintage",
+              "cta_link1": "shopify:\/\/collections\/made-in-usa",
+              "cta_text2": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 500,
+              "text_size": 100,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "80% 50%",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
               "framed": false
             }
           },
@@ -909,47 +851,23 @@
       "collection-promotions": {
         "type": "collection-promotions",
         "blocks": {
-          "1526403837307": {
+          "1602382632423": {
             "type": "banner",
             "settings": {
               "promo_collection": "",
               "heading": "Banner promotion",
               "text": "Add the details of your promotion in smaller text",
-              "link": "shopify:\/\/collections\/all",
+              "link": "",
               "label": "Shop now",
               "image": "",
-              "color_tint": "#e95454",
-              "color_tint_opacity": 10,
-              "framed": false
-            }
-          },
-          "1526496043079": {
-            "type": "advanced",
-            "settings": {
-              "promo_collection": "",
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "image": "",
-              "video_url": "",
-              "width": "100",
-              "height": 500,
-              "text_size": 120,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
+              "color_tint": "#1c1d1d",
+              "color_tint_opacity": 8,
               "framed": true
             }
           }
         },
         "block_order": [
-          "1526403837307",
-          "1526496043079"
+          "1602382632423"
         ],
         "settings": {
           "gutter_size": 20
@@ -957,25 +875,9 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
-        "blocks": {
-          "footer-promotions-0": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "",
-              "title": "Site-wide Content",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button ALL PRODUCTS",
-              "button_link": "shopify:\/\/collections\/all"
-            }
-          }
-        },
-        "block_order": [
-          "footer-promotions-0"
-        ],
         "settings": {
-          "hide_homepage": true,
-          "image_size": "wide"
+          "hide_homepage": false,
+          "image_size": "portrait"
         }
       },
       "list-collections-template": {
@@ -992,7 +894,6 @@
       "1524769873765",
       "1498163293234",
       "1525912530555",
-      "1499789718857",
       "1525886124958",
       "1525295772132",
       "1499790633921",

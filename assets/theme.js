@@ -6468,7 +6468,6 @@ lazySizesConfig.expFactor = 4;
     sections.register('collection-template', theme.Collection);
     sections.register('featured-content-section', theme.FeaturedContentSection);
     sections.register('testimonials', theme.Testimonials);
-    sections.register('instagram', theme.Instagram); // PEACOCK ADDED
     sections.register('newsletter-popup', theme.NewsletterPopup);
     sections.register('map', theme.Maps);
     sections.register('blog', theme.Blog);
@@ -6480,60 +6479,3 @@ lazySizesConfig.expFactor = 4;
 })(theme.jQuery);
 
 // PEACOCK CHANGES 
-
-// Instagram from old them ecode
-theme.Instagram = (function() {
-    var isInit = false;
-  
-    function Instagram(container) {
-      var $container = this.$container = $(container);
-      var sectionId = $container.attr('data-section-id');
-      this.namespace = '.instagram-' + sectionId;
-      this.$target = $('#Instafeed-' + sectionId);
-  
-      if (!this.$target.length) {
-        return;
-      }
-  
-      this.checkVisibility();
-      $(window).on('scroll' + this.namespace, $.throttle(100, this.checkVisibility.bind(this)));
-    }
-  
-    Instagram.prototype = $.extend({}, Instagram.prototype, {
-      checkVisibility: function() {
-        if (isInit) {
-          $(window).off('scroll' + this.namespace);
-          return;
-        }
-  
-        if (theme.isElementVisible(this.$container)) {
-          this.init();
-        }
-      },
-  
-      init: function() {
-        isInit = true;
-  
-        var userId = this.$target.data('user-id');
-        var clientId = this.$target.data('client-id');
-        var count = parseInt(this.$target.data('count'));
-        var gridItemWidth = this.$target.data('grid-item-width');
-  
-        // Ask for 2 more images than we'll actually show because
-        // Instagram sometimes doesn't send enough
-        var feed = this.feed = new InstafeedTheme({
-          target: this.$target[0],
-          accessToken: clientId,
-          get: 'user',
-          userId: userId,
-          limit: count + 2,
-          template: '<div class="grid__item '+ gridItemWidth +'"><div class="image-wrap"><a href="{% raw %}{{link}}{% endraw %}" target="_blank" style="background-image: url({% raw %}{{image}}{% endraw %}); display: block; padding-bottom: 100%; background-size: cover; background-position: center;"></a></div></div>',
-          resolution: 'standard_resolution'
-        });
-  
-        feed.run();
-      }
-    });
-  
-    return Instagram;
-  })();

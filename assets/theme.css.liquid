@@ -11050,30 +11050,4 @@ iframe.zoid-component-frame{
 }
 
 /* PEACOCK CHANGES */
-    
-/* Added instagram.liquid from old theme code */
-/* Instagram section*/
-    
-  .instagram-feed-wrap .grid__item {
-    opacity: 0;
-  }
-
-  .instagram-feed-wrap.aos-animate .grid__item {
-    animation: $animate_images_style 1s cubic-bezier(0.26, 0.54, 0.32, 1) 0s forwards;
-  }
-
-  @include media-query($medium-up) {
-    .instagram-feed-wrap.aos-animate .grid__item {
-      // First and last column
-      &:nth-child(6n+1),
-      &:nth-child(6n+6) {
-        animation-delay: 300ms;
-      }
-
-      &:nth-child(6n+2),
-      &:nth-child(6n+5) {
-        animation-delay: 150ms;
-      }
-    }
-  }
-}
+  
