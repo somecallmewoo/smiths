@@ -3,14 +3,14 @@
     "color_body_bg": "#ffffff",
     "color_body_text": "#000000",
     "color_price": "#1c1d1d",
-    "color_savings_text": "#caff00",
+    "color_savings_text": "#00b9ff",
     "color_borders": "#e8e8e1",
     "color_button": "#74c830",
     "color_button_text": "#ffffff",
     "color_sale_tag": "#1c1d1d",
-    "color_sale_tag_text": "#ffffff",
+    "color_sale_tag_text": "#ff0000",
     "color_cart_dot": "#00a599",
-    "color_small_image_bg": "#ffffff",
+    "color_small_image_bg": "rgba(0,0,0,0)",
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
     "color_header_text": "#000000",
@@ -646,17 +646,27 @@
               "collapsed": true
             }
           },
-          "1524772580942": {
-            "type": "tags_all",
+          "1602390464046": {
+            "type": "tags_group",
             "settings": {
-              "title": "Tags",
+              "title": "Color",
+              "tag_list": "Pink\nBlue\nGreen\nYellow",
+              "collapsed": true
+            }
+          },
+          "1602390661510": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Fit",
+              "tag_list": "Petite\nWide\/XL\nOversized",
               "collapsed": true
             }
           }
         },
         "block_order": [
           "1524772785241",
-          "1524772580942"
+          "1602390464046",
+          "1602390661510"
         ],
         "settings": {
           "enable_sidebar": true,
@@ -887,6 +897,57 @@
           "display_type": "all",
           "sort": "date_reversed",
           "grid": "3"
+        }
+      },
+      "promo-grid-brands": {
+        "type": "promo-grid-brands",
+        "blocks": {
+          "1602388945587": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "BRAND PAGE",
+              "heading": "custom for brand",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
+              "cta_link1": "",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "20% 0",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "1602388945587"
+        ],
+        "settings": {
+          "full_width": false,
+          "gutter_size": 20,
+          "space_above": true,
+          "space_below": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "recently-viewed": {
+        "type": "recently-viewed",
+        "settings": {
+          "show_section": true,
+          "recent_count": 5
         }
       }
     },
