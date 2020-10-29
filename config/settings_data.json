@@ -137,7 +137,6 @@
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/smiths-opticians-Houston-glasses-logo.png",
-              "logo-inverted": "",
               "desktop_logo_width": 160,
               "mobile_logo_width": 110
             }
@@ -146,8 +145,7 @@
             "type": "announcement",
             "settings": {
               "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
-              "link": ""
+              "link_text": "30-day postage paid returns"
             }
           }
         },
@@ -567,12 +565,10 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_image": "",
           "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
-          "button_link": "",
           "enable_button": false
         }
       },
@@ -650,7 +646,7 @@
             "type": "tags_group",
             "settings": {
               "title": "Color",
-              "tag_list": "Pink\nBlue\nGreen\nYellow",
+              "tag_list": "Black\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
               "collapsed": true
             }
           },
@@ -670,7 +666,7 @@
         ],
         "settings": {
           "enable_sidebar": true,
-          "filter_style": "drawer",
+          "filter_style": "sidebar",
           "tags_combine": true,
           "enable_sort": true
         }
@@ -867,9 +863,7 @@
               "promo_collection": "",
               "heading": "Banner promotion",
               "text": "Add the details of your promotion in smaller text",
-              "link": "",
               "label": "Shop now",
-              "image": "",
               "color_tint": "#1c1d1d",
               "color_tint_opacity": 8,
               "framed": true
