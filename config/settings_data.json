@@ -207,7 +207,7 @@
         "type": "collection-template",
         "settings": {
           "description_position": "bottom",
-          "subcollection_style": "none",
+          "subcollection_style": "above",
           "subcollections_per_row": 5,
           "enable_collection_count": true,
           "per_row": 4,
@@ -379,8 +379,6 @@
               "title": "Explain your brand philosophy",
               "text": "<p>Use this section to explain your company philosophy or standards. Showcase lifestyle photography for added emphasis. This content will appear on all products.<\/p>",
               "button_label": "",
-              "button_link": "",
-              "image": "",
               "alignment": "center",
               "color_border": "#f4f4f4",
               "layout": "right",
@@ -394,37 +392,31 @@
               "title": "Testimonials",
               "align_text": "center",
               "round_images": false,
-              "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store&rsquo;s happy customers and to provide social proof.<\/p>",
-              "image_1": "",
+              "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store’s happy customers and to provide social proof.<\/p>",
               "author_1": "Author's name",
-              "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store&rsquo;s happy customers and to provide social proof.<\/p>",
-              "image_2": "",
+              "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store’s happy customers and to provide social proof.<\/p>",
               "author_2": "Author's name"
             }
           },
           "1592408474529": {
             "type": "text-and-image",
             "settings": {
-              "image": "",
               "image_width": 500,
               "subtitle": "Improved",
               "title": "Image with text",
               "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
               "button_label": "Optional button",
-              "button_link": "",
               "layout": "right"
             }
           },
           "1592410318615": {
             "type": "text-and-image",
             "settings": {
-              "image": "",
               "image_width": 500,
               "subtitle": "Improved",
               "title": "Image with text",
               "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
               "button_label": "Optional button",
-              "button_link": "",
               "layout": "left"
             }
           },
@@ -435,13 +427,10 @@
               "title": "Two line\ntitle image",
               "title_size": 80,
               "subheading": "And optional subtext",
-              "link": "",
               "link_text": "Optional button",
-              "link_2": "",
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
               "focal_point": "center center",
               "section_height": "650px",
               "mobile_height": "auto"
@@ -468,13 +457,10 @@
               "title": "Two line\ntitle image",
               "title_size": 80,
               "subheading": "And optional subtext",
-              "link": "",
               "link_text": "Optional button",
-              "link_2": "",
               "link_text_2": "",
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
               "focal_point": "center center",
               "section_height": "650px",
               "mobile_height": "auto"
@@ -496,26 +482,20 @@
               "title": "",
               "align_text": "center",
               "enable_image_1": true,
-              "image_1": "",
               "image_width_1": 650,
               "title_1": "Example title",
               "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label_1": "",
-              "button_link_1": "",
               "enable_image_2": true,
-              "image_2": "",
               "image_width_2": 650,
               "title_2": "Example title",
               "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label_2": "",
-              "button_link_2": "",
               "enable_image_3": true,
-              "image_3": "",
               "image_width_3": 650,
               "title_3": "Example title",
               "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label_3": "",
-              "button_link_3": ""
+              "button_label_3": ""
             }
           },
           "page-background-image-text": {
@@ -525,8 +505,6 @@
               "title": "Large image with text box",
               "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
               "button_label": "",
-              "button_link": "",
-              "image": "",
               "alignment": "center",
               "color_border": "#f4f4f4",
               "layout": "right",
@@ -634,14 +612,6 @@
       "collection-sidebar": {
         "type": "collection-sidebar",
         "blocks": {
-          "1524772785241": {
-            "type": "subcollections",
-            "settings": {
-              "enable_subsubcollections": true,
-              "enable_count": false,
-              "collapsed": true
-            }
-          },
           "1602390464046": {
             "type": "tags_group",
             "settings": {
@@ -657,12 +627,29 @@
               "tag_list": "Petite\nWide\/XL\nOversized",
               "collapsed": true
             }
+          },
+          "180c2fda-db4d-4451-9c68-04a0643b55cc": {
+            "type": "color_group",
+            "settings": {
+              "title": "Swatches",
+              "tag_list": "Burgundy \nHeather grey \nGreen\nBlack\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
+              "collapsed": true
+            }
+          },
+          "ba9b5b23-abaf-4c30-a060-8ed088127c70": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "by-color",
+              "collapsed": false
+            }
           }
         },
         "block_order": [
-          "1524772785241",
           "1602390464046",
-          "1602390661510"
+          "1602390661510",
+          "180c2fda-db4d-4451-9c68-04a0643b55cc",
+          "ba9b5b23-abaf-4c30-a060-8ed088127c70"
         ],
         "settings": {
           "enable_sidebar": true,
@@ -934,7 +921,7 @@
         "settings": {
           "show_product_recommendations": true,
           "product_recommendations_heading": "You may also like",
-          "related_count": 5
+          "related_count": 4
         }
       },
       "recently-viewed": {
