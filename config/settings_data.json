@@ -49,7 +49,7 @@
     "button_style": "square",
     "icon_weight": "3px",
     "icon_linecaps": "miter",
-    "vendor_enable": true,
+    "vendor_enable": false,
     "sku_enable": false,
     "quantity_enable": false,
     "variant_labels_enable": true,
@@ -65,8 +65,8 @@
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
-    "product_color_swatches": false,
-    "collection_color_swatches": false,
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
     "swatch_style": "round",
     "trust_image": "",
     "product_content_1": "rx-lenses",
@@ -615,7 +615,7 @@
           "1602390464046": {
             "type": "tags_group",
             "settings": {
-              "title": "Color",
+              "title": "tag Color",
               "tag_list": "Black\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
               "collapsed": true
             }
@@ -632,7 +632,7 @@
             "type": "color_group",
             "settings": {
               "title": "Swatches",
-              "tag_list": "Burgundy \nHeather grey \nGreen\nBlack\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
+              "tag_list": "Clear\nBurgundy \nHeather grey \nGreen\nBlack\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
               "collapsed": true
             }
           },
@@ -677,11 +677,10 @@
         "type": "map",
         "settings": {
           "map_title": "Our retail store",
-          "address": "<p>4313 Austin St<\/p>\n<p>Houston, TX<\/p>",
+          "address": "<p>4313 Austin St<\/p><p>Houston, TX<\/p>",
           "map_address": "4313 Austin St, Houston, TX, 77004",
           "api_key": "",
           "show_button": true,
-          "background_image": "",
           "background_image_position": "center center"
         }
       },
@@ -709,8 +708,6 @@
               "cta_text1": "Shop This",
               "cta_link1": "shopify:\/\/collections\/all",
               "cta_text2": "Shop All",
-              "cta_link2": "",
-              "image": "",
               "video_url": "",
               "width": "100",
               "height": 720,
@@ -769,7 +766,6 @@
           "1602380041668": {
             "type": "simple",
             "settings": {
-              "link": "",
               "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">See What's<br>NEW<\/h2><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-combination-horn-rim-glasses.png?v=1581399719\">",
               "image": "shopify:\/\/shop_images\/CTA-garrett-leight.jpg",
               "width": "50",
@@ -801,7 +797,6 @@
               "cta_text1": "Shop Vintage",
               "cta_link1": "shopify:\/\/collections\/made-in-usa",
               "cta_text2": "",
-              "cta_link2": "",
               "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
               "video_url": "",
               "width": "50",
