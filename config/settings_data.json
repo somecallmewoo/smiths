@@ -612,11 +612,11 @@
       "collection-sidebar": {
         "type": "collection-sidebar",
         "blocks": {
-          "1602390464046": {
-            "type": "tags_group",
+          "180c2fda-db4d-4451-9c68-04a0643b55cc": {
+            "type": "color_group",
             "settings": {
-              "title": "tag Color",
-              "tag_list": "Black\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
+              "title": "Main Color",
+              "tag_list": "Clear\nBurgundy \nHeather grey \nGreen\nBlack\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
               "collapsed": true
             }
           },
@@ -628,28 +628,19 @@
               "collapsed": true
             }
           },
-          "180c2fda-db4d-4451-9c68-04a0643b55cc": {
-            "type": "color_group",
+          "cac8d741-4942-430b-a5c2-04801286b556": {
+            "type": "subcollections",
             "settings": {
-              "title": "Swatches",
-              "tag_list": "Clear\nBurgundy \nHeather grey \nGreen\nBlack\nBlue\nBrown\nGold\nGreen\nMulti\nPink\nPurple\nRed\nSilver\nWhite\nYellow",
-              "collapsed": true
-            }
-          },
-          "ba9b5b23-abaf-4c30-a060-8ed088127c70": {
-            "type": "menu",
-            "settings": {
-              "title": "",
-              "menu": "by-color",
+              "enable_subsubcollections": true,
+              "enable_count": true,
               "collapsed": false
             }
           }
         },
         "block_order": [
-          "1602390464046",
-          "1602390661510",
           "180c2fda-db4d-4451-9c68-04a0643b55cc",
-          "ba9b5b23-abaf-4c30-a060-8ed088127c70"
+          "1602390661510",
+          "cac8d741-4942-430b-a5c2-04801286b556"
         ],
         "settings": {
           "enable_sidebar": true,
