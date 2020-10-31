@@ -206,7 +206,7 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "description_position": "bottom",
+          "description_position": "top",
           "subcollection_style": "none",
           "subcollections_per_row": 5,
           "enable_collection_count": true,
@@ -606,7 +606,7 @@
         "settings": {
           "enable": false,
           "collection_image_enable": false,
-          "parallax": true
+          "parallax": false
         }
       },
       "collection-sidebar": {
@@ -829,23 +829,6 @@
       },
       "collection-promotions": {
         "type": "collection-promotions",
-        "blocks": {
-          "1602382632423": {
-            "type": "banner",
-            "settings": {
-              "promo_collection": "",
-              "heading": "Banner promotion",
-              "text": "Add the details of your promotion in smaller text",
-              "label": "Shop now",
-              "color_tint": "#1c1d1d",
-              "color_tint_opacity": 8,
-              "framed": true
-            }
-          }
-        },
-        "block_order": [
-          "1602382632423"
-        ],
         "settings": {
           "gutter_size": 20
         }

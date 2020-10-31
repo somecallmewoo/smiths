@@ -5,4 +5,16 @@
       {{ 'general.404.subtext_html' | t: url: routes.root_url }}
     </div>
   </header>
+  
+  <div class="parent-container">
+    <h2>Collections of Glasses</h2>
+    <div class="link-container">
+      {% for product in collections %}
+      {% if product.handle != 'all-products' %}
+      <a class="sitemap_link" href="{{ product.url | within: collection }}">{{ product.title }}</a><br>
+      {% endif %}
+      {% endfor %}
+    </div>
+</div>
+  
 </div>
