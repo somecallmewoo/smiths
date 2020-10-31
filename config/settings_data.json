@@ -686,7 +686,7 @@
         "type": "map",
         "settings": {
           "map_title": "Our retail store",
-          "address": "<p>4313 Austin St<\/p><p>Houston, TX<\/p>",
+          "address": "<p>4313 Austin St.<br\/>Houston, TX<\/p>",
           "map_address": "4313 Austin St, Houston, TX, 77004",
           "api_key": "",
           "show_button": true,
@@ -840,9 +840,9 @@
         ],
         "settings": {
           "full_width": true,
-          "gutter_size": 20,
+          "gutter_size": 18,
           "space_above": false,
-          "space_below": false
+          "space_below": true
         }
       },
       "collection-promotions": {
