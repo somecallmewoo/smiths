@@ -7,7 +7,7 @@
     "color_borders": "#e8e8e1",
     "color_button": "#74c830",
     "color_button_text": "#ffffff",
-    "color_sale_tag": "#1c1d1d",
+    "color_sale_tag": "rgba(0,0,0,0)",
     "color_sale_tag_text": "#ff0000",
     "color_cart_dot": "#00a599",
     "color_small_image_bg": "rgba(0,0,0,0)",
@@ -82,7 +82,7 @@
     "reviews_layout": "expandable",
     "collection_grid_style": "overlaid-box",
     "collection_grid_shape": "square",
-    "collection_grid_image": "product",
+    "collection_grid_image": "collection",
     "collection_grid_text_align": "center",
     "collection_grid_tint": "rgba(0,0,0,0)",
     "collection_grid_opacity": 0,
@@ -110,7 +110,7 @@
     "search_enable": true,
     "search_type": "product,article,page,collection",
     "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
+    "predictive_search_show_vendor": true,
     "predictive_search_show_price": false,
     "predictive_image_size": "square",
     "show_breadcrumbs": false,
@@ -633,14 +633,32 @@
             "settings": {
               "enable_subsubcollections": true,
               "enable_count": true,
-              "collapsed": false
+              "collapsed": true
+            }
+          },
+          "3eac7898-e203-4bc8-a22d-7e5762ef2814": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Color-Tags",
+              "tag_list": "Black\nMulti\nGreen\nBlue\nYellow\nOrange\nPink\nPurple\nWhite\nSilver\nGold\nGray",
+              "collapsed": true
+            }
+          },
+          "2cf9734a-634f-4566-bd81-b9ece79a61aa": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Frame Type",
+              "tag_list": "Combination\nMetal\nAcetate",
+              "collapsed": true
             }
           }
         },
         "block_order": [
           "180c2fda-db4d-4451-9c68-04a0643b55cc",
           "1602390661510",
-          "cac8d741-4942-430b-a5c2-04801286b556"
+          "cac8d741-4942-430b-a5c2-04801286b556",
+          "3eac7898-e203-4bc8-a22d-7e5762ef2814",
+          "2cf9734a-634f-4566-bd81-b9ece79a61aa"
         ],
         "settings": {
           "enable_sidebar": true,
