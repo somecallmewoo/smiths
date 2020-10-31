@@ -647,7 +647,7 @@
           "2cf9734a-634f-4566-bd81-b9ece79a61aa": {
             "type": "tags_group",
             "settings": {
-              "title": "Frame Type",
+              "title": "Material",
               "tag_list": "Combination\nMetal\nAcetate",
               "collapsed": true
             }
@@ -696,8 +696,8 @@
       "1525295772132": {
         "type": "featured-collection",
         "settings": {
-          "title": "MADE IN USA",
-          "home_featured_products": "made-in-usa",
+          "title": "Meow!",
+          "home_featured_products": "cat-eye",
           "per_row": 4,
           "rows": 1,
           "mobile_scrollable": true,
