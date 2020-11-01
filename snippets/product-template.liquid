@@ -102,6 +102,7 @@
               <h1 class="h2 product-single__title">
                 {{ product.title }}
               </h1>
+            <p>{{ product.vendor | link_to_vendor }}</p>
             {%- endif -%}
 
             {%- if settings.enable_product_reviews and settings.reviews_layout == 'full' -%}
