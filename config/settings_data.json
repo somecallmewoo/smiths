@@ -450,86 +450,25 @@
       "page-sections-template": {
         "type": "page-sections-template",
         "blocks": {
-          "page-image-hero": {
-            "type": "image-hero",
-            "settings": {
-              "parallax": true,
-              "title": "Two line\ntitle image",
-              "title_size": 80,
-              "subheading": "And optional subtext",
-              "link_text": "Optional button",
-              "link_text_2": "",
-              "color_accent": "rgba(0,0,0,0)",
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center center",
-              "section_height": "650px",
-              "mobile_height": "auto"
-            }
-          },
-          "page-rich-text": {
-            "type": "rich-text",
-            "settings": {
-              "title": "Rich text block",
-              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
-              "align_text": "center",
-              "narrow_column": true,
-              "enlarge_text": true
-            }
-          },
-          "page-text-columns": {
-            "type": "text-columns",
-            "settings": {
-              "title": "",
-              "align_text": "center",
-              "enable_image_1": true,
-              "image_width_1": 650,
-              "title_1": "Example title",
-              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label_1": "",
-              "enable_image_2": true,
-              "image_width_2": 650,
-              "title_2": "Example title",
-              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label_2": "",
-              "enable_image_3": true,
-              "image_width_3": 650,
-              "title_3": "Example title",
-              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label_3": ""
-            }
-          },
           "page-background-image-text": {
             "type": "background-image-text",
             "settings": {
-              "subtitle": "Impressive",
-              "title": "Large image with text box",
-              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-              "button_label": "",
+              "subtitle": "since 1968",
+              "title": "4313 Austin Street",
+              "text": "<p>HOUSTON, TX 77004<br\/>713-524-8884<\/p><p>at the corner of Austin and Wheeler<\/p><p>Mon. - Fri. 10:30 - 6<br\/>Sat. 11 - 4<\/p>",
+              "button_label": "get directions",
+              "button_link": "https:\/\/g.page\/smithsopticians?share",
+              "image": "shopify:\/\/shop_images\/map_to_smiths_opticians_Houston_texas.png",
               "alignment": "center",
               "color_border": "#f4f4f4",
               "layout": "right",
               "height": 550,
               "parallax": true
             }
-          },
-          "page-featured-collection": {
-            "type": "featured-collection",
-            "settings": {
-              "title": "Featured collection",
-              "collection": "",
-              "per_row": 4,
-              "rows": 1,
-              "mobile_scrollable": true,
-              "view_all": true
-            }
           }
         },
         "block_order": [
-          "page-image-hero",
-          "page-rich-text",
-          "page-text-columns",
-          "page-background-image-text",
-          "page-featured-collection"
+          "page-background-image-text"
         ],
         "settings": {
           "page_title_enable": false,
