@@ -897,7 +897,7 @@
           "page-faq-template-0": {
             "type": "rich-text",
             "settings": {
-              "title": "Shipping policy",
+              "title": "Shipping",
               "text": "<p>We ship USPS within the United States and US territories.<br> <a href=\"\/pages\/contact\" alt=\"contact Smith's Opticians about international glasses\"> Contact us<\/a> directly for international orders.<\/p>",
               "align_text": "left"
             }
@@ -919,7 +919,7 @@
           "page-faq-template-3": {
             "type": "rich-text",
             "settings": {
-              "title": "Returns and exchanges",
+              "title": "Returns & exchanges",
               "text": "<p>Return or exchange unused items within 30 days for a full refund.<br>\n<b>We do not except returns without prior authorization.<\/b><\/p>",
               "align_text": "left"
             }
@@ -937,6 +937,43 @@
               "title": "What if 30 days has passed?",
               "text": "<p>Drop us a line with your order # and tell us what's wrong. Sometimes we're able to make an exception, depending on the frame\/vendor\/timeframe.<\/p>"
             }
+          },
+          "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Insurance",
+              "text": "<p>Yes, you can use your FSA or HSA card for glasses at our store or online.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "4c3120bb-3512-4d61-99c7-9c86b280b8e5": {
+            "type": "rich-text",
+            "settings": {
+              "title": "@ the Store (Houston)",
+              "text": "<p>Our physical store has a much larger selection and lower average price point as a result.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "4ec0da55-d1a6-4678-b9bd-6ab827bd0dce": {
+            "type": "question",
+            "settings": {
+              "title": "What brands do you stock?",
+              "text": "<p>150+ independent optical collections with a focus on unique and hard to find glasses.<br>\nLess name recognition, more variety.<\/p>"
+            }
+          },
+          "ed2ed74c-57ec-450a-85d3-ab25f9022b65": {
+            "type": "question",
+            "settings": {
+              "title": "How long will my lenses take?",
+              "text": "<p>Single vision lenses typically take just a few business days.<br>Progressives take a bit longer.<br> <br>We'll contact you as soon as the order has passed quality control and is complete.<\/p>"
+            }
+          },
+          "5f7c1414-da70-4233-8e57-b2bd9f052b3a": {
+            "type": "question",
+            "settings": {
+              "title": "Can you order _____ ?",
+              "text": "<p>If we stock a collection and the frame is available, we're happy to make a special order for you!<br> <br>\nSimilar to clothing, frame styles and colors change with the seasons. So if you love a pair of glasses, consider getting a backup frame sooner rather than later.<\/p>"
+            }
           }
         },
         "block_order": [
@@ -945,7 +982,12 @@
           "page-faq-template-2",
           "page-faq-template-3",
           "page-faq-template-4",
-          "1745b44b-b508-40e1-9d11-6ac556944cf6"
+          "1745b44b-b508-40e1-9d11-6ac556944cf6",
+          "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9",
+          "4c3120bb-3512-4d61-99c7-9c86b280b8e5",
+          "4ec0da55-d1a6-4678-b9bd-6ab827bd0dce",
+          "ed2ed74c-57ec-450a-85d3-ab25f9022b65",
+          "5f7c1414-da70-4233-8e57-b2bd9f052b3a"
         ],
         "settings": {
           "page_title_enable": false,
