@@ -140,18 +140,10 @@
               "desktop_logo_width": 160,
               "mobile_logo_width": 110
             }
-          },
-          "1524770296206": {
-            "type": "announcement",
-            "settings": {
-              "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns"
-            }
           }
         },
         "block_order": [
-          "1524770014057",
-          "1524770296206"
+          "1524770014057"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
@@ -184,7 +176,7 @@
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up and save",
+              "title": "Sign up",
               "text": "<p>Periodic messages and 1st looks.<\/p>",
               "container_width": 33
             }
@@ -262,7 +254,7 @@
           "button_link": "shopify:\/\/collections\/all",
           "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
           "focal_point": "20% 0",
-          "color_border": "#00c295",
+          "color_border": "#00a599",
           "layout": "right",
           "height": 750,
           "framed": true,
@@ -501,7 +493,7 @@
               "top_subheading": "",
               "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\nEyeglasses in Houston",
               "title_size": 40,
-              "subheading": "",
+              "subheading": "shop online",
               "link": "shopify:\/\/collections\/all",
               "link_text": "visit us",
               "link_2": "shopify:\/\/pages\/visit",
@@ -617,75 +609,18 @@
           "map_address": "4313 Austin St, Houston, TX, 77004",
           "api_key": "",
           "show_button": true,
-          "background_image_position": "center center"
-        }
-      },
-      "1525295772132": {
-        "type": "featured-collection",
-        "settings": {
-          "title": "Cat Eyes!",
-          "home_featured_products": "cat-eye",
-          "per_row": 4,
-          "rows": 1,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false
+          "background_image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
+          "background_image_position": "bottom center"
         }
       },
       "1525912530555": {
         "type": "promo-grid",
         "blocks": {
-          "1602380041668": {
-            "type": "simple",
-            "settings": {
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">See What's<br>NEW<\/h2><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-combination-horn-rim-glasses.png?v=1581399719\">",
-              "image": "shopify:\/\/shop_images\/CTA-garrett-leight.jpg",
-              "width": "50",
-              "height": 300,
-              "color_tint": "rgba(0,0,0,0)",
-              "color_tint_opacity": 0,
-              "framed": false
-            }
-          },
-          "1602380133983": {
-            "type": "simple",
-            "settings": {
-              "link": "shopify:\/\/pages\/visit",
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Large Glasses<\/h2><br><p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-find-our-location.png?v=1581399616\"><\/p>",
-              "image": "shopify:\/\/shop_images\/CTA-visit-us.jpg",
-              "width": "50",
-              "height": 300,
-              "color_tint": "#000000",
-              "color_tint_opacity": 0,
-              "framed": false
-            }
-          },
-          "1525912530555-1": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "new old stock",
-              "heading": "Vintage Glasses",
-              "textarea": "faves online, 100's of choices in store<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-cat-eye-glasses.png?v=1581400305\" width=\"40%\">",
-              "cta_text1": "Shop Vintage",
-              "cta_link1": "shopify:\/\/collections\/made-in-usa",
-              "cta_text2": "",
-              "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
-              "video_url": "",
-              "width": "50",
-              "height": 500,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "80% 50%",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": false
-            }
-          },
           "1602380342912": {
             "type": "simple",
             "settings": {
               "link": "shopify:\/\/pages\/faq",
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">What's New<\/h2><br><span style=\"color: #fff; font-size: 2em;\">recent additions online<br><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/cta-submit-arrow.png?v=1581401103\" width=\"50px\">",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">What's New<\/h2>",
               "image": "shopify:\/\/shop_images\/CTA-orange.jpg",
               "width": "50",
               "height": 300,
@@ -694,15 +629,55 @@
               "framed": false
             }
           },
+          "1602380041668": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/collections",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Shop<br>ALL<\/h2>",
+              "image": "shopify:\/\/shop_images\/CTA-garrett-leight.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "rgba(0,0,0,0)",
+              "color_tint_opacity": 0,
+              "framed": false
+            }
+          },
           "22337cbf-534a-45f8-99ab-274f441e9c78": {
             "type": "simple",
             "settings": {
               "link": "shopify:\/\/collections\/round-collection",
-              "text": "Round Glasses",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Round<br>Glasses<\/h2>",
+              "image": "shopify:\/\/shop_images\/cta-round-glasses-background.jpg",
               "width": "50",
               "height": 300,
               "color_tint": "#000000",
-              "color_tint_opacity": 16,
+              "color_tint_opacity": 20,
+              "framed": false
+            }
+          },
+          "1602380133983": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/pages\/visit",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Large Glasses<\/h2><br>",
+              "image": "shopify:\/\/shop_images\/CTA-new-old-stock-vintage-glasses.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 0,
+              "framed": false
+            }
+          },
+          "1ce9a259-98c5-4fb3-aa05-dc535120e565": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/collections\/vintage",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Vintage<br>Glasses<\/h2>",
+              "image": "shopify:\/\/shop_images\/CTA-visit-us.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
               "framed": false
             }
           },
@@ -710,22 +685,36 @@
             "type": "simple",
             "settings": {
               "link": "shopify:\/\/products\/cazal-264",
-              "text": "Vintage Cazal",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Vintage<br>CAZAL<\/h2>",
+              "image": "shopify:\/\/shop_images\/vintage-cazal-advertisement-80s-eyeglasses.jpg",
               "width": "50",
               "height": 300,
               "color_tint": "#000000",
               "color_tint_opacity": 8,
               "framed": false
             }
+          },
+          "7226ea9f-07e6-4b20-952d-5ba6ff3987e1": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/collections\/cat-eye",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">CAT<br>EYES<\/h2>",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 20,
+              "framed": false
+            }
           }
         },
         "block_order": [
-          "1602380041668",
-          "1602380133983",
-          "1525912530555-1",
           "1602380342912",
+          "1602380041668",
           "22337cbf-534a-45f8-99ab-274f441e9c78",
-          "f8aa4472-bbf5-4dda-80e6-74c40c134863"
+          "1602380133983",
+          "1ce9a259-98c5-4fb3-aa05-dc535120e565",
+          "f8aa4472-bbf5-4dda-80e6-74c40c134863",
+          "7226ea9f-07e6-4b20-952d-5ba6ff3987e1"
         ],
         "settings": {
           "full_width": true,
@@ -934,7 +923,6 @@
     "content_for_index": [
       "1524769873765",
       "1525912530555",
-      "1525295772132",
       "1499790633921",
       "1525118065355"
     ]
