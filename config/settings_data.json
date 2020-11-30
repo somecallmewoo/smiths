@@ -239,17 +239,6 @@
           "social_sharing_blog": true
         }
       },
-      "1498163293234": {
-        "type": "featured-content",
-        "settings": {
-          "title": "",
-          "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
-          "align_text": "center",
-          "narrow_column": true,
-          "enlarge_text": true,
-          "divider": false
-        }
-      },
       "blog-template": {
         "type": "blog-template",
         "settings": {
@@ -266,9 +255,9 @@
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
-          "subtitle": "Impressive",
-          "title": "Large image with text box",
-          "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+          "subtitle": "Visit the store",
+          "title": "Buy Glasses in Houston",
+          "text": "<p>est. 1963<\/p><p>Smith&#x27;s offers 2,000+ choices in store with frames starting at $28 and lenses from $40. <\/p>",
           "button_label": "",
           "button_link": "shopify:\/\/collections\/all",
           "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
@@ -620,26 +609,11 @@
           "enable_sort": true
         }
       },
-      "1525115199973": {
-        "type": "blog-posts",
-        "settings": {
-          "title": "From the journal",
-          "blog": "news",
-          "post_limit": 3,
-          "blog_show_tags": false,
-          "blog_show_date": true,
-          "blog_show_comments": false,
-          "blog_show_author": false,
-          "view_all": true,
-          "blog_image_size": "wide",
-          "divider": false
-        }
-      },
       "1525118065355": {
         "type": "map",
         "settings": {
-          "map_title": "Our retail store",
-          "address": "<p>4313 Austin St.<br\/>Houston, TX<\/p>",
+          "map_title": "Corner of Austin and Wheeler",
+          "address": "<p>4313 Austin St.<br\/>Houston, TX<\/p><p>M-F 10:30 to 6<br\/>Sat. 11 to 4<\/p>",
           "map_address": "4313 Austin St, Houston, TX, 77004",
           "api_key": "",
           "show_button": true,
@@ -649,77 +623,13 @@
       "1525295772132": {
         "type": "featured-collection",
         "settings": {
-          "title": "Meow!",
+          "title": "Cat Eyes!",
           "home_featured_products": "cat-eye",
           "per_row": 4,
           "rows": 1,
           "mobile_scrollable": true,
           "view_all": true,
           "divider": false
-        }
-      },
-      "1525886124958": {
-        "type": "promo-grid",
-        "blocks": {
-          "1525886482727": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "video_url": "",
-              "width": "100",
-              "height": 720,
-              "text_size": 120,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "80% 50%",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": false
-            }
-          },
-          "1525886854810": {
-            "type": "sale_collection",
-            "settings": {
-              "sale_collection": "",
-              "top_text": "Up to",
-              "middle_text": "50% off",
-              "bottom_text": "Select products",
-              "width": "50",
-              "color_tint": "#000000",
-              "color_tint_opacity": 0,
-              "boxed": false,
-              "framed": true
-            }
-          },
-          "1525911710924": {
-            "type": "sale_collection",
-            "settings": {
-              "sale_collection": "",
-              "top_text": "Up to",
-              "middle_text": "50% off",
-              "bottom_text": "Select products",
-              "width": "50",
-              "color_tint": "#000000",
-              "color_tint_opacity": 0,
-              "boxed": false,
-              "framed": true
-            }
-          }
-        },
-        "block_order": [
-          "1525886482727",
-          "1525886854810",
-          "1525911710924"
-        ],
-        "settings": {
-          "full_width": false,
-          "gutter_size": 20,
-          "space_above": false,
-          "space_below": false
         }
       },
       "1525912530555": {
@@ -741,7 +651,7 @@
             "type": "simple",
             "settings": {
               "link": "shopify:\/\/pages\/visit",
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">3rd Ward Houston<br>EST 1968<\/h2><p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-find-our-location.png?v=1581399616\"><\/p>",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Large Glasses<\/h2><br><p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/CTA-find-our-location.png?v=1581399616\"><\/p>",
               "image": "shopify:\/\/shop_images\/CTA-visit-us.jpg",
               "width": "50",
               "height": 300,
@@ -775,8 +685,32 @@
             "type": "simple",
             "settings": {
               "link": "shopify:\/\/pages\/faq",
-              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">Gift Cards<\/h2><br><span style=\"color: #fff; font-size: 2em;\">USE ONLINE OR IN STORE<br><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/cta-submit-arrow.png?v=1581401103\" width=\"50px\">",
+              "text": "<h2 style=\"color: #fff; font-size: 3em; padding: 12px 0 0 5%\">What's New<\/h2><br><span style=\"color: #fff; font-size: 2em;\">recent additions online<br><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0301\/8240\/8251\/files\/cta-submit-arrow.png?v=1581401103\" width=\"50px\">",
               "image": "shopify:\/\/shop_images\/CTA-orange.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "22337cbf-534a-45f8-99ab-274f441e9c78": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/collections\/round-collection",
+              "text": "Round Glasses",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 16,
+              "framed": false
+            }
+          },
+          "f8aa4472-bbf5-4dda-80e6-74c40c134863": {
+            "type": "simple",
+            "settings": {
+              "link": "shopify:\/\/products\/cazal-264",
+              "text": "Vintage Cazal",
               "width": "50",
               "height": 300,
               "color_tint": "#000000",
@@ -789,12 +723,14 @@
           "1602380041668",
           "1602380133983",
           "1525912530555-1",
-          "1602380342912"
+          "1602380342912",
+          "22337cbf-534a-45f8-99ab-274f441e9c78",
+          "f8aa4472-bbf5-4dda-80e6-74c40c134863"
         ],
         "settings": {
           "full_width": true,
           "gutter_size": 18,
-          "space_above": false,
+          "space_above": true,
           "space_below": true
         }
       },
@@ -997,12 +933,9 @@
     },
     "content_for_index": [
       "1524769873765",
-      "1498163293234",
       "1525912530555",
-      "1525886124958",
       "1525295772132",
       "1499790633921",
-      "1525115199973",
       "1525118065355"
     ]
   },
