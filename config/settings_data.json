@@ -224,7 +224,7 @@
           "image_position": "left",
           "image_size": "large",
           "thumbnail_position": "beside",
-          "thumbnail_arrows": false,
+          "thumbnail_arrows": true,
           "enable_video_looping": true,
           "product_video_style": "muted"
         }
@@ -344,6 +344,19 @@
       },
       "product-story-sections": {
         "type": "product-story-sections",
+        "blocks": {
+          "637b3020-96bb-4349-bb0c-a282d40215e6": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<h2>Prescription Lenses<\/h2><p>We've been doing that for over 50 years!<\/p>\nWhile we keep up with new technologies and research, Smith's still considers choosing lenses a pretty personal process.\n<p>\n1 on 1 consultation, same as we do in store!\n<\/p><hr>\n<p><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "637b3020-96bb-4349-bb0c-a282d40215e6"
+        ],
         "settings": {
         }
       },
