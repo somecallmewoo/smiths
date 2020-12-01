@@ -169,7 +169,15 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 25
+              "container_width": 33
+            }
+          },
+          "7bbd4838-f5a8-487f-87a7-9ef8bf99300f": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "shop",
+              "container_width": 33
             }
           },
           "1494292487693": {
@@ -184,6 +192,7 @@
         },
         "block_order": [
           "1494301487049",
+          "7bbd4838-f5a8-487f-87a7-9ef8bf99300f",
           "1494292487693"
         ],
         "settings": {
@@ -242,23 +251,6 @@
           "blog_show_author": false,
           "blog_show_excerpt": false,
           "blog_image_size": "wide"
-        }
-      },
-      "1499790633921": {
-        "type": "background-image-text",
-        "settings": {
-          "subtitle": "Visit the store",
-          "title": "Buy Glasses in Houston",
-          "text": "<p>est. 1963<\/p><p>Smith&#x27;s offers 2,000+ choices in store with frames starting at $28 and lenses from $40. <\/p>",
-          "button_label": "",
-          "button_link": "shopify:\/\/collections\/all",
-          "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
-          "focal_point": "20% 0",
-          "color_border": "#00a599",
-          "layout": "right",
-          "height": 750,
-          "framed": true,
-          "parallax": true
         }
       },
       "product-sections-template": {
@@ -352,79 +344,6 @@
       },
       "product-story-sections": {
         "type": "product-story-sections",
-        "blocks": {
-          "1592410313636": {
-            "type": "background-image-text",
-            "settings": {
-              "subtitle": "Why choose us?",
-              "title": "Explain your brand philosophy",
-              "text": "<p>Use this section to explain your company philosophy or standards. Showcase lifestyle photography for added emphasis. This content will appear on all products.<\/p>",
-              "button_label": "",
-              "alignment": "center",
-              "color_border": "#f4f4f4",
-              "layout": "right",
-              "height": 650,
-              "parallax": true
-            }
-          },
-          "1592408476245": {
-            "type": "testimonials",
-            "settings": {
-              "title": "Testimonials",
-              "align_text": "center",
-              "round_images": false,
-              "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store’s happy customers and to provide social proof.<\/p>",
-              "author_1": "Author's name",
-              "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store’s happy customers and to provide social proof.<\/p>",
-              "author_2": "Author's name"
-            }
-          },
-          "1592408474529": {
-            "type": "text-and-image",
-            "settings": {
-              "image_width": 500,
-              "subtitle": "Improved",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-              "button_label": "Optional button",
-              "layout": "right"
-            }
-          },
-          "1592410318615": {
-            "type": "text-and-image",
-            "settings": {
-              "image_width": 500,
-              "subtitle": "Improved",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-              "button_label": "Optional button",
-              "layout": "left"
-            }
-          },
-          "1592410272428": {
-            "type": "image-hero",
-            "settings": {
-              "parallax": true,
-              "title": "Two line\ntitle image",
-              "title_size": 80,
-              "subheading": "And optional subtext",
-              "link_text": "Optional button",
-              "link_text_2": "",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center center",
-              "section_height": "650px",
-              "mobile_height": "auto"
-            }
-          }
-        },
-        "block_order": [
-          "1592410313636",
-          "1592408476245",
-          "1592408474529",
-          "1592410318615",
-          "1592410272428"
-        ],
         "settings": {
         }
       },
@@ -491,12 +410,12 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\nEyeglasses in Houston",
+              "title": " \n \n \n \n <br>",
               "title_size": 40,
-              "subheading": "shop online",
-              "link": "shopify:\/\/collections\/all",
+              "subheading": "IRL or Virtual",
+              "link": "shopify:\/\/pages\/visit",
               "link_text": "visit us",
-              "link_2": "shopify:\/\/pages\/visit",
+              "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "shop online",
               "color_accent": "#000000",
               "text_align": "vertical-center horizontal-center",
@@ -508,9 +427,9 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": " \n \n \n \n \nFSA & HSA <br>Eligible Expense",
+              "title": "&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;",
               "title_size": 40,
-              "subheading": "",
+              "subheading": "FSA & HSA Eligible Expense",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop all",
               "link_2": "shopify:\/\/pages\/visit",
@@ -599,18 +518,6 @@
           "filter_style": "sidebar",
           "tags_combine": true,
           "enable_sort": true
-        }
-      },
-      "1525118065355": {
-        "type": "map",
-        "settings": {
-          "map_title": "Corner of Austin and Wheeler",
-          "address": "<p>4313 Austin St.<br\/>Houston, TX<\/p><p>M-F 10:30 to 6<br\/>Sat. 11 to 4<\/p>",
-          "map_address": "4313 Austin St, Houston, TX, 77004",
-          "api_key": "",
-          "show_button": true,
-          "background_image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
-          "background_image_position": "bottom center"
         }
       },
       "1525912530555": {
@@ -918,13 +825,41 @@
           "page_title_enable": false,
           "page_content_enable": false
         }
+      },
+      "16067771376b0a5eae": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
+          "image_width": 500,
+          "subtitle": "Visit the store",
+          "title": "Buy Glasses in Houston",
+          "text": "<p>est. 1963<\/p><p>Smith&#x27;s offers 2,000+ choices in store with frames starting at $28 and lenses from $40. <\/p>",
+          "button_label": "Get Directions",
+          "button_link": "shopify:\/\/pages\/visit",
+          "layout": "right",
+          "divider": false
+        }
+      },
+      "160677789553a14cf3": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/questions-about-prescription-glasses.jpg",
+          "image_width": 500,
+          "subtitle": "Frames - Lenses - ETC",
+          "title": "Got Questions?",
+          "text": "<p>send us a message<\/p>",
+          "button_label": "FAQ",
+          "button_link": "shopify:\/\/pages\/faq",
+          "layout": "left",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "1524769873765",
       "1525912530555",
-      "1499790633921",
-      "1525118065355"
+      "16067771376b0a5eae",
+      "160677789553a14cf3"
     ]
   },
   "presets": {
