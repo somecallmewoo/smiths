@@ -219,7 +219,7 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "description_style": "default",
+          "description_style": "full",
           "social_enable": true,
           "image_position": "left",
           "image_size": "large",
@@ -350,12 +350,23 @@
             "settings": {
               "full_width": false,
               "space_around": true,
-              "code": "<h2>Prescription Lenses<\/h2><p>We've been doing that for over 50 years!<\/p>\nWhile we keep up with new technologies and research, Smith's still considers choosing lenses a pretty personal process.\n<p>\n1 on 1 consultation, same as we do in store!\n<\/p><hr>\n<p><\/p>"
+              "code": "<center>\n<h2>Prescription Lenses<\/h2>\n<p>We've been doing that for over 50 years!<\/p>\n<p>\nChoose the option at checkout and send us your RX.<br>We'll have a quick 1-on-1 (voice, text, or email) to answer your questions or make a recommendation.\n<br><strong>NO sales pressure, just answers.<\/strong>\n<\/p>\n<hr>\nOR\n<hr>\nAsk your preferred vision provider if they will put lenses in prescription ready glasses purchased elsewhere.<\/center>"
+            }
+          },
+          "b31f868c-7043-4735-93a4-39ccad5f27f6": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/prescription-glasses-how-to-choose-lenses-carlos_3bec4348-2e7a-401b-b50c-d1cf76c46e74.jpg",
+              "image_2": "shopify:\/\/shop_images\/help-choosing-prescription-glasses-affordable-google-eyes.jpg",
+              "image_3": "shopify:\/\/shop_images\/42711052-0DE5-49E2-8D2F-D46393D56D81_1_105_c.jpg",
+              "enable_gutter": false,
+              "enable_zoom": true
             }
           }
         },
         "block_order": [
-          "637b3020-96bb-4349-bb0c-a282d40215e6"
+          "637b3020-96bb-4349-bb0c-a282d40215e6",
+          "b31f868c-7043-4735-93a4-39ccad5f27f6"
         ],
         "settings": {
         }
@@ -651,9 +662,37 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
+        "blocks": {
+          "9005b88c-01c1-47b5-9e59-00b0ba62c13f": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/prescription-glasses-how-to-choose-lenses-carlos_3bec4348-2e7a-401b-b50c-d1cf76c46e74.jpg",
+              "title": "Prescription Lenses",
+              "text": "<p>We&#x27;ve been doing that for over 50 years.<\/p>",
+              "button_label": "Learn More",
+              "button_link": "shopify:\/\/pages\/rx-lenses"
+            }
+          },
+          "508ffc3b-4ffe-4dd6-829d-e646906f7d04": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/help-choosing-prescription-glasses-affordable-google-eyes.jpg",
+              "title": "Add your new RX",
+              "text": "<p>Want to replace the lenses in your favorite frame?<\/p>",
+              "button_label": "Come on down",
+              "button_link": "shopify:\/\/pages\/visit"
+            }
+          }
+        },
+        "block_order": [
+          "9005b88c-01c1-47b5-9e59-00b0ba62c13f",
+          "508ffc3b-4ffe-4dd6-829d-e646906f7d04"
+        ],
         "settings": {
-          "hide_homepage": false,
-          "image_size": "portrait"
+          "hide_homepage": true,
+          "image_size": "wide"
         }
       },
       "list-collections-template": {
@@ -712,7 +751,7 @@
       "recently-viewed": {
         "type": "recently-viewed",
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "recent_count": 5
         }
       },
