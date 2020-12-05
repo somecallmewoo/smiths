@@ -782,7 +782,7 @@
             "type": "rich-text",
             "settings": {
               "title": "@ the Store (Houston)",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Our physical store has a much larger selection of eyeglasses and lower average price point.<\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Our physical store has a much larger selection of eyeglasses and lower average price point. We're able to fill any prescription, single vision or multifocal, as long as it's valid, replace lenses, and more. <em><a href=\"\/pages\/visit\" alt=\"Buy affordable glasses in Houston.\">Directions\/Hours etc<\/a><\/em><\/p><br>\nPlease wear a mask and limit your shopping party to ~2 people.",
               "align_text": "left"
             }
           },
@@ -790,29 +790,43 @@
             "type": "question",
             "settings": {
               "title": "How long will my order take?",
-              "text": "We'll contact you as soon as the order has passed quality control and is ready for pickup!<br><br>\n<p><u>Single vision<\/u> lenses typically take just a few business days.<br><u>Progressives<\/u> take a bit longer, about a week to 10 days.<br>\n<u>Specialty lenses<\/u> vary based on the order details.<\/p>"
+              "text": "We'll contact you as soon as the order has passed quality control and is ready for pickup!<br><br>\n<p><u>Single vision<\/u> lenses typically take a week or less.<br><u>Progressives<\/u> take a bit longer, about a week to 10 days.<br>\n<u>Specialty lenses<\/u> vary based on the order details.<\/p>\n<br><b>TL;DR We'll call you.<\/b>"
             }
           },
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e": {
             "type": "question",
             "settings": {
               "title": "Can you adjust my glasses?",
-              "text": "<p>We can! Just come on over to the shop and we'll get your frames back to fitting like they're supposed to, instead of falling off your face or giving you a headache.<\/p>"
+              "text": "<p>As long as they're made out of prescription ready material, it shouldn't be a problem. <br>Just come on over to the shop and we'll get your frames back to fitting like they're supposed to, instead of falling off your face or giving you a headache.<\/p><br><b>TL;DR Probably, but only at the store.<\/b>"
             }
           },
           "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9": {
             "type": "rich-text",
             "settings": {
               "title": "Insurance",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Yes, you can use your FSA or HSA card for glasses at our store or online. <\/p><b>ONLINE<\/b> Choose Health Savings Card at checkout. You'll get an itemized receipt upon payment. <b>IN STORE<\/b> Ask for an itemized receipt when your order is complete.",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Yes, you can use your FSA or HSA card for glasses at our store or online. <\/p>",
               "align_text": "left"
+            }
+          },
+          "0549b53f-3347-477a-a009-f2f5bf344060": {
+            "type": "question",
+            "settings": {
+              "title": "Use vision insurance IN STORE",
+              "text": "<p>Ask for an itemized receipt when you pick up your completed order.<\/p>"
+            }
+          },
+          "439a9ec8-c6a4-44bd-8120-e6622a0a1800": {
+            "type": "question",
+            "settings": {
+              "title": "Use vision insurance ONLINE",
+              "text": "<p>Choose \"<u>Health Savings Card<\/u>\" at checkout. You'll get an email with a payment link and an itemized receipt upon order completion. <\/p>"
             }
           },
           "eca62532-5a3c-40ee-8076-c56dd57a7f5b": {
             "type": "rich-text",
             "settings": {
               "title": "Lenses",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Answers about lenses with or without prescription. <\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Questions and answers about lenses with or without prescription. <\/p>",
               "align_text": "left"
             }
           },
@@ -820,7 +834,7 @@
             "type": "question",
             "settings": {
               "title": "Can you put new lenses in my old glasses?",
-              "text": "<p>Maybe!<br>If the frame is in good shape and made for prescription lenses, than the answer is <u>probably<\/u>, bring it to the shop with your new RX. <em>We only offer this at our Houston store.<\/em><br><\/p>"
+              "text": "<p>Maybe!<br>If the frame is in good shape and made for prescription lenses, than the answer is <u>probably<\/u>, bring it to the shop with your new RX.<\/p>\nWe only offer prescription updates when:<br>- you visit our Houston store or\n- you purchased your frames from us.<br>"
             }
           },
           "ac94cc84-275a-46e0-b69e-cae29941556b": {
@@ -845,6 +859,13 @@
               "text": "<p><b>YES!<\/b> All of the eyeglasses at Smith's are made for prescription lenses. <em>Check with your vision specialist to see if they will put lenses in prescription ready glasses.<\/em><\/p>"
             }
           },
+          "9581ebcd-4cb2-4ca0-8fce-e41608962fa5": {
+            "type": "question",
+            "settings": {
+              "title": "Can I bring MY frames to YOU?",
+              "text": "<p>You can bring your prescription ready frames to the store, any time.<\/p>"
+            }
+          },
           "5f7c1414-da70-4233-8e57-b2bd9f052b3a": {
             "type": "question",
             "settings": {
@@ -863,50 +884,50 @@
             "type": "question",
             "settings": {
               "title": "Help! My glasses broke!",
-              "text": "<p>Check out our warranty.<\/p>"
+              "text": "<p>Oh no! Review our warranty info and either way, send us a pic. From there, we'll see what we can do.<\/p>"
             }
           },
           "ede776b9-a9ff-4d54-a8f6-8204f1ecb3f2": {
             "type": "rich-text",
             "settings": {
               "title": "Warranty",
-              "text": "<p>We've got your best interest in mind... <br>Please <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us to discuss – photos are super helpful <\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>We've got your best interest in mind... <br>Please <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us to discuss – photos are super helpful \n [full details]<\/p>",
               "align_text": "left"
+            }
+          },
+          "79eb8d38-7b85-482b-9c5b-1948f8c439a8": {
+            "type": "question",
+            "settings": {
+              "title": "Lenses",
+              "text": "<p>We guarantee prescription accuracy.<br><br>\nIf there's an issue, we'll even use a manual lensometer, instead of relying on automatic machines (sometimes poorly calibrated), to help troubleshoot. <br><br>\nCheck out the details of our <a href=\"\/pages\/lenses\" alt=\"problems with prescription &glasses\">prescription lens<\/a> warranties. <em><br>\n<br><b>TL;DR<\/b> Let's talk if you're unhappy or experiencing issues with your lenses.<\/em><\/p>"
             }
           },
           "958ee427-d351-44ae-ba60-cf6093859207": {
             "type": "question",
             "settings": {
               "title": "Frames",
-              "text": "<p>One year warranty covers defects from materials or workmanship.<\/p>"
+              "text": "<p>One year warranty covers defects from materials or workmanship. [full details]<\/p>"
             }
           },
           "1cd074ed-cd42-4aa2-9948-f73d2b044227": {
             "type": "question",
             "settings": {
               "title": "Vintage Frames",
-              "text": "<p>Items from our vintage stock are ready for your lenses and sold \"as is\". <em>They should NOT be adjusted before lenses are placed in the frame.<\/em><\/p>\nWe can't order a replacement for your deadstock frame, but we’ll do our best to help you out, promise!"
-            }
-          },
-          "79eb8d38-7b85-482b-9c5b-1948f8c439a8": {
-            "type": "question",
-            "settings": {
-              "title": "Prescription Lenses",
-              "text": "<p>We guarantee prescription accuracy.<br> Check out the details of our <a href=\"\/pages\/lenses\" alt=\"problems with prescription glasses\">prescription lens<\/a> warranties. <em>All in all, let's talk if you're unhappy or experiencing issues with your lenses.<\/em><\/p>"
+              "text": "<p>Items from our vintage stock are in excellent shape and ready for your lenses. They're sold \"as is\" and sometimes they're a little wonky from age, that's okay, they'll look much better once adjusted for your face.<br><br> <em>Vintage eyeglasses should NOT be adjusted before lenses are placed in the frame.<\/em> <\/p>\nWe can't order a replacement for your deadstock frame, but we’ll do our best to help you out, promise!\n<br><b>TL;DR They're vintage and in good shape but might need a little work. We can't order more because... they're vintage.<\/b>"
             }
           },
           "2bc20038-be62-4d08-a42b-906581dbe5a8": {
             "type": "question",
             "settings": {
               "title": "Anti-reflective Coatings",
-              "text": "<p>The warranty covers manufacture defects, such as peeling or cracking. <em>Check your order to confirm a one or two year warranty for your AR coating.<\/em><br><br>AR coated lenses should be cleaned with the spray and cloth that Smith's provides (FREE) or another microfiber cloth and warm mildly soapy water.<\/p>\nWhile our AR coatings are scratch resistant, there is no scratch proof lens. Using materials other than microfiber or attempting to clean the lens while dry or with harsh chemicals, will result in deterioration."
+              "text": "<p>The warranty covers manufacture defects, such as peeling or cracking. <em>Check your order to confirm a one or two year warranty for your AR coating.<\/em><br><br>AR coated lenses should be cleaned with the spray and cloth that Smith's provides (FREE) or another microfiber cloth and warm mildly soapy water.<\/p>\nWhile our AR coatings are scratch resistant, there is no scratch proof lens. Using materials other than microfiber or attempting to clean the lens while dry or with harsh chemicals, will result in deterioration.<br>\n<br><b>TL;DR In the event of a quality issue, we'll replace your lenses during the warranty period.<\/b>"
             }
           },
           "page-faq-template-3": {
             "type": "rich-text",
             "settings": {
               "title": "Returns & exchanges",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Return or exchange unused items within 30 days for a full refund.<br>\n<em>We do not except returns without prior authorization.<\/em><\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Standard stuff here. Return or exchange unused frames with the case within 30 days for a full refund.<br><br>\n<em>We do not except shipped returns without prior authorization and we only make refunds to the original method of payment.<\/em><\/p>",
               "align_text": "left"
             }
           },
@@ -914,14 +935,14 @@
             "type": "question",
             "settings": {
               "title": "What if 30 days has passed?",
-              "text": "<p>Drop us a line with your order # and tell us what's wrong. Sometimes we're able to make an exception, depending on the frame\/vendor\/timeline.<\/p>"
+              "text": "<p>Come on over to the shop or drop us a line with your order # and tell us what's wrong. <\/p>"
             }
           },
           "page-faq-template-4": {
             "type": "question",
             "settings": {
               "title": "How do I send my order back?",
-              "text": "<p>Send us a message with your order # and we'll sort the details out together.<\/p>"
+              "text": "<p><b>IN STORE<\/b> Come on down. <b>ONLINE<\/b> Send us a message with your order # and desired outcome. We'll reply with a shipping label and or sort the details out together.<\/p>"
             }
           }
         },
@@ -930,18 +951,21 @@
           "ed2ed74c-57ec-450a-85d3-ab25f9022b65",
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e",
           "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9",
+          "0549b53f-3347-477a-a009-f2f5bf344060",
+          "439a9ec8-c6a4-44bd-8120-e6622a0a1800",
           "eca62532-5a3c-40ee-8076-c56dd57a7f5b",
           "ae632e84-d74c-444c-9f4b-1682ed25b7b5",
           "ac94cc84-275a-46e0-b69e-cae29941556b",
           "9ced25ec-f05d-4d69-8454-0ea29dcd5f68",
           "92191f43-1955-4f59-b4af-70f593460d8a",
+          "9581ebcd-4cb2-4ca0-8fce-e41608962fa5",
           "5f7c1414-da70-4233-8e57-b2bd9f052b3a",
           "4ec0da55-d1a6-4678-b9bd-6ab827bd0dce",
           "e93b7600-267b-4ae3-93bd-e27881621546",
           "ede776b9-a9ff-4d54-a8f6-8204f1ecb3f2",
+          "79eb8d38-7b85-482b-9c5b-1948f8c439a8",
           "958ee427-d351-44ae-ba60-cf6093859207",
           "1cd074ed-cd42-4aa2-9948-f73d2b044227",
-          "79eb8d38-7b85-482b-9c5b-1948f8c439a8",
           "2bc20038-be62-4d08-a42b-906581dbe5a8",
           "page-faq-template-3",
           "1745b44b-b508-40e1-9d11-6ac556944cf6",
