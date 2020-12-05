@@ -280,7 +280,7 @@
 
             {%- unless description_style == 'full' -%}
               <div class="product-single__description rte">
-                {% include 'tabbed-description' %}
+                {{ product.description }}
               </div>
 
               {%- render 'product-additional-content', product: product, section_id: section_id -%}
