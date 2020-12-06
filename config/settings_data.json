@@ -778,6 +778,14 @@
       "page-faq-template": {
         "type": "page-faq-template",
         "blocks": {
+          "8180ce27-d076-441f-9fe2-229fed49e378": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Q&A",
+              "text": "<p>@ The Houston Store<br>\nInsurance<br><\/p>",
+              "align_text": "left"
+            }
+          },
           "4c3120bb-3512-4d61-99c7-9c86b280b8e5": {
             "type": "rich-text",
             "settings": {
@@ -819,7 +827,7 @@
             "type": "question",
             "settings": {
               "title": "Use vision insurance ONLINE",
-              "text": "<p>Choose \"<u>Health Savings Card<\/u>\" at checkout. You'll get an email with a payment link and an itemized receipt upon order completion. <\/p>"
+              "text": "<p>Choose \"<em>Health Savings<\/em>\" option at checkout. You'll get an email with a payment link and an itemized receipt upon order completion. <\/p>"
             }
           },
           "eca62532-5a3c-40ee-8076-c56dd57a7f5b": {
@@ -913,7 +921,7 @@
             "type": "question",
             "settings": {
               "title": "Vintage Frames",
-              "text": "<p>Items from our vintage stock are in excellent shape and ready for your lenses. They're sold \"as is\" and sometimes they're a little wonky from age, that's okay, they'll look much better once adjusted for your face.<br><br> <em>Vintage eyeglasses should NOT be adjusted before lenses are placed in the frame.<\/em> <\/p>\nWe can't order a replacement for your deadstock frame, but we’ll do our best to help you out, promise!\n<br><b>TL;DR They're vintage and in good shape but might need a little work. We can't order more because... they're vintage.<\/b>"
+              "text": "<p>Items from our vintage stock are in excellent shape and ready for your lenses. They're sold \"as is\" and sometimes they're a little wonky from age, that's okay, they'll look much better once adjusted for your face.<br><br> <em>Vintage eyeglasses should NOT be adjusted before lenses are placed in the frame.<\/em> <\/p>\nWe can't order a replacement for your deadstock frame, but we’ll do our best to help you out, promise!<br><b>TL;DR They're vintage and in good shape but might need a little work. We can't order more because... they're vintage.<\/b>"
             }
           },
           "2bc20038-be62-4d08-a42b-906581dbe5a8": {
@@ -944,9 +952,18 @@
               "title": "How do I send my order back?",
               "text": "<p><b>IN STORE<\/b> Come on down. <b>ONLINE<\/b> Send us a message with your order # and desired outcome. We'll reply with a shipping label and or sort the details out together.<\/p>"
             }
+          },
+          "f151b5fe-3633-4499-9ae8-07422769f87d": {
+            "type": "rich-text",
+            "settings": {
+              "title": "More Questions?",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Contact us any time for <a href=\"\/pages\/contact\" alt=\"link to contact page for questions about glasses.\">clarity or questions<\/a> we might not have addressed above.<\/p>",
+              "align_text": "center"
+            }
           }
         },
         "block_order": [
+          "8180ce27-d076-441f-9fe2-229fed49e378",
           "4c3120bb-3512-4d61-99c7-9c86b280b8e5",
           "ed2ed74c-57ec-450a-85d3-ab25f9022b65",
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e",
@@ -969,7 +986,8 @@
           "2bc20038-be62-4d08-a42b-906581dbe5a8",
           "page-faq-template-3",
           "1745b44b-b508-40e1-9d11-6ac556944cf6",
-          "page-faq-template-4"
+          "page-faq-template-4",
+          "f151b5fe-3633-4499-9ae8-07422769f87d"
         ],
         "settings": {
           "page_title_enable": false,
