@@ -1,7 +1,7 @@
 {
   "current": {
     "color_body_bg": "#ffffff",
-    "color_body_text": "#000000",
+    "color_body_text": "#555150",
     "color_price": "#1c1d1d",
     "color_savings_text": "#00b9ff",
     "color_borders": "#e8e8e1",
@@ -13,7 +13,7 @@
     "color_small_image_bg": "rgba(0,0,0,0)",
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
-    "color_header_text": "#000000",
+    "color_header_text": "#555150",
     "color_announcement": "#74c830",
     "color_announcement_text": "#ffffff",
     "color_footer": "#ffffff",
@@ -1047,13 +1047,26 @@
             "settings": {
               "full_width": false,
               "space_around": true,
-              "code": "First know that we're happy to <a href=\"\/pages\/contact\" alt=\"Link to contact\">chat<\/a> 1-on-1 to help out AND we have a straightforward <a href=\"\/pages\/faq\/#return\" alt=\"Link to return policy.\">return policy<\/a>.<br>\n<br>\n[link to first time glasses wearer]<br>\n\n<h2>What size do I wear?<\/h2>\nThis will not be a consistent # across all eyeglasses. <br>\n<em>We promise, you're not always a 53 eye. <\/em><br><br>\nThe best way to guesstimate is to compare the eye size of your current frames to that of your persecutive new eyeglasses.<br><br>\n<h3>Where to find the size<\/h3>\nLook on the inside of your temple for a number sequence similar to ##-##-###.<br>\n[insert example]<br>\n<br>\nSometimes the eye and bridge are together and the temple is by itself.<br>\n[insert example]<br>\n<h3>Finding The Perfect Fit<\/h3>\n<b>Frame Design + Face Shape + Frame Size<\/b><br>\n<br>\nNumbers don't always tell the full picture. The frame's design along with your face shape will both play into how it will fit and feel. [return tool tip]<br>\n<em>Think about your average button up shirt. The same size and fit will feel different across brands.<\/em>\n<h2>1st Time Wearing Glasses?<\/h2>\nGot a pair of sunglasses? They can help guide you.<br>\n<br>Contact us using your preferred method of communication. From there we can provide a little direction and have a chat to answer any of your questions.<br>"
+              "code": "First know that we're available to <a href=\"\/pages\/contact\" alt=\"Link to contact\">chat<\/a> 1-on-1 AND we have a straightforward <a href=\"\/pages\/faq\/#return\" alt=\"Link to return policy.\">return policy<\/a>.<br><br>\nThe biggest takeaways from this page should be: <br>\n1. Go with an eye size that's similar to your current frames or adjust for desired style (larger\/smaller).<br>\n2. Don't overthink it.<br>\n3. \n<h2>Choosing the best size<\/h2>\n1. What size you should wear.<br>\n2. Finding the perfect fit.<br>\n<br>\nBut first, a few basics like where to find the size and what the measurements mean.\n\n<h3>What size do I wear?<\/h3>\nThis will not be a consistent # across all eyeglasses. <br>\n<em>We promise, you're not always a 53 eye. <\/em><br><br>\nThe best way to guesstimate is to compare the eye size of your current frames to that of your persecutive new eyeglasses.<br><br>\n<h3>Where to find the size<\/h3>\nLook on the inside of your temple for a number sequence similar to ##-##-###.<br>\n[insert example]<br>\n<br>\nSometimes the eye and bridge are together and the temple is by itself.<br>\n[insert example]<br>\n<br><b>[link to first time glasses wearer go here]<\/b>\n<h3>Finding The Perfect Fit<\/h3>\n<b>Frame Design + Face Shape + Frame Size<\/b><br>\n<br>\nNumbers don't always tell the full picture. The frame's design along with your face shape will both play into how it will fit and feel. [return tool tip]<br>\n<em>Think about your average button up shirt. The same size and fit will feel different across brands.<\/em>\n<h2>1st Time Wearing Glasses?<\/h2>\nGot a pair of sunglasses? They can help guide you.<br>\n<br>Contact us using your preferred method of communication. From there we can provide a little direction and have a chat to answer any of your questions.<br>"
+            }
+          },
+          "13b48c87-52be-43c7-9e77-5759e4937561": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eyeglasses-temple-measurement-explained.jpg",
+              "image_width": 500,
+              "subtitle": "Numbers can be deceiving",
+              "title": "FINDING THE PERFECT FIT",
+              "text": "<p><strong>You + Frame Design + Frame Size<\/strong><br\/><br\/>Numbers don&#x27;t always tell the full picture. This red frame is a great example<strong>.<\/strong> The design extends around the face and <strong>adds length to the side of frame<\/strong>.<\/p>",
+              "button_label": "",
+              "layout": "left"
             }
           }
         },
         "block_order": [
           "5bdb050d-356b-4957-8631-9fba1bf04e9c",
-          "961cb179-0c80-43b0-8449-e1e2554b88e9"
+          "961cb179-0c80-43b0-8449-e1e2554b88e9",
+          "13b48c87-52be-43c7-9e77-5759e4937561"
         ],
         "settings": {
           "page_title_enable": false,
