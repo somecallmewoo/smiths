@@ -1025,20 +1025,20 @@
       "page-section-template-fit": {
         "type": "page-section-template-fit",
         "blocks": {
-          "bc0d3f33-7b81-48cc-830f-0a2ecf47172f": {
+          "5bdb050d-356b-4957-8631-9fba1bf04e9c": {
             "type": "image-hero",
             "settings": {
               "parallax": false,
-              "title": "",
+              "title": "<p style=\"color:#555150\">Measuring<br>Eyeglasses<\/p>",
               "title_size": 40,
               "subheading": "",
               "link_text": "",
               "link_text_2": "",
               "color_accent": "rgba(0,0,0,0)",
-              "text_align": "vertical-bottom horizontal-center",
-              "image": "shopify:\/\/shop_images\/mesure-glasses-size-graphic-mm.jpg",
+              "text_align": "vertical-bottom horizontal-right",
+              "image": "shopify:\/\/shop_images\/how-to-measure-glasses-instructions.jpg",
               "focal_point": "center center",
-              "section_height": "550px",
+              "section_height": "natural",
               "mobile_height": "250px"
             }
           },
@@ -1047,12 +1047,12 @@
             "settings": {
               "full_width": false,
               "space_around": true,
-              "code": "First know that we're happy to chat 1-on-1 to help out AND we have a straightforward return policy<br>\n<br>\n[link to first time glasses wearer]<br>\n<h2>Measuring Glasses<\/h2>\nThe best way to guesstimate is to compare your current frames to the new ones. <br>\nLook on the inside of your temple for a number sequence similar to ##-##-###.<br>\n[insert example]<br>\nSometimes the eye and bridge are together and the temple is by itself.<br>\n[insert example]<br>\n<h3>Finding The Perfect Fit<\/h3>\nNumbers don't always tell the full picture. The frame's design along with your face shape will both play into how it will fit and feel. [return tool tip]<br>\n<em>Think about your average button up shirt. The same size and fit will feel different across brands.<\/em>"
+              "code": "First know that we're happy to <a href=\"\/pages\/contact\" alt=\"Link to contact\">chat<\/a> 1-on-1 to help out AND we have a straightforward <a href=\"\/pages\/faq\/#return\" alt=\"Link to return policy.\">return policy<\/a>.<br>\n<br>\n[link to first time glasses wearer]<br>\n\n<h2>What size do I wear?<\/h2>\nThis will not be a consistent # across all eyeglasses. <br>\n<em>We promise, you're not always a 53 eye. <\/em><br><br>\nThe best way to guesstimate is to compare the eye size of your current frames to that of your persecutive new eyeglasses.<br><br>\n<h3>Where to find the size<\/h3>\nLook on the inside of your temple for a number sequence similar to ##-##-###.<br>\n[insert example]<br>\n<br>\nSometimes the eye and bridge are together and the temple is by itself.<br>\n[insert example]<br>\n<h3>Finding The Perfect Fit<\/h3>\n<b>Frame Design + Face Shape + Frame Size<\/b><br>\n<br>\nNumbers don't always tell the full picture. The frame's design along with your face shape will both play into how it will fit and feel. [return tool tip]<br>\n<em>Think about your average button up shirt. The same size and fit will feel different across brands.<\/em>\n<h2>1st Time Wearing Glasses?<\/h2>\nGot a pair of sunglasses? They can help guide you.<br>\n<br>Contact us using your preferred method of communication. From there we can provide a little direction and have a chat to answer any of your questions.<br>"
             }
           }
         },
         "block_order": [
-          "bc0d3f33-7b81-48cc-830f-0a2ecf47172f",
+          "5bdb050d-356b-4957-8631-9fba1bf04e9c",
           "961cb179-0c80-43b0-8449-e1e2554b88e9"
         ],
         "settings": {
