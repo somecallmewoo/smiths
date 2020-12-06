@@ -1021,6 +1021,44 @@
           "layout": "left",
           "divider": false
         }
+      },
+      "page-section-template-fit": {
+        "type": "page-section-template-fit",
+        "blocks": {
+          "bc0d3f33-7b81-48cc-830f-0a2ecf47172f": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "",
+              "title_size": 40,
+              "subheading": "",
+              "link_text": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-bottom horizontal-center",
+              "image": "shopify:\/\/shop_images\/mesure-glasses-size-graphic-mm.jpg",
+              "focal_point": "center center",
+              "section_height": "550px",
+              "mobile_height": "250px"
+            }
+          },
+          "961cb179-0c80-43b0-8449-e1e2554b88e9": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "First know that we're happy to chat 1-on-1 to help out AND we have a straightforward return policy<br>\n<br>\n[link to first time glasses wearer]<br>\n<h2>Measuring Glasses<\/h2>\nThe best way to guesstimate is to compare your current frames to the new ones. <br>\nLook on the inside of your temple for a number sequence similar to ##-##-###.<br>\n[insert example]<br>\nSometimes the eye and bridge are together and the temple is by itself.<br>\n[insert example]<br>\n<h3>Finding The Perfect Fit<\/h3>\nNumbers don't always tell the full picture. The frame's design along with your face shape will both play into how it will fit and feel. [return tool tip]<br>\n<em>Think about your average button up shirt. The same size and fit will feel different across brands.<\/em>"
+            }
+          }
+        },
+        "block_order": [
+          "bc0d3f33-7b81-48cc-830f-0a2ecf47172f",
+          "961cb179-0c80-43b0-8449-e1e2554b88e9"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
       }
     },
     "content_for_index": [
