@@ -1091,7 +1091,7 @@
             "settings": {
               "subtitle": "you got this",
               "title": "Key Points",
-              "text": "<p>1. If you like &#x27;em, give me a try!<br\/>2. Compare the eye size measurement of your existing optical or sunglasses.<br\/>3. We can make an <a title=\"FAQ\" href=\"\/pages\/faq\">exchange or return<\/a>.<\/p>",
+              "text": "<p>1. If you like &#x27;em, give me a try!<br\/>2. Compare the eye size measurement of your existing optical or sunglasses.<br\/>3. We can make an <a href=\"\/pages\/faq\" title=\"FAQ\">exchange or return<\/a>.<\/p>",
               "button_label": "",
               "image": "shopify:\/\/shop_images\/Montrose_Houston_Sunglasses_Krewe_Prescription.jpg",
               "alignment": "center",
@@ -1108,6 +1108,69 @@
           "13b48c87-52be-43c7-9e77-5759e4937561",
           "b3943238-c2f7-427c-a27f-6757bd946fbd",
           "8fcf996d-f136-4827-9f1a-e62e11c299be"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-section-template-lens": {
+        "type": "page-section-template-lens",
+        "blocks": {
+          "4c54fd84-23d4-4378-ba3a-154d25e440e3": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "<p style=\"color:#555150\">Prescription<br>Lenses<\/p>",
+              "title_size": 40,
+              "subheading": "",
+              "link_text": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-bottom horizontal-right",
+              "image": "shopify:\/\/shop_images\/thin-prescription-lenses-for-glasses.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "250px"
+            }
+          },
+          "2a2ab840-b626-45fd-a7df-c8e30bc7ba69": {
+            "type": "rich-text",
+            "settings": {
+              "title": "We've been making RX lenses for 50+ years",
+              "text": "<p>If you still have questions or concerns after reviewing this page, or have some feedback\/want to add your .02¢, send us a message with the form below.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "b1909595-de33-4dfe-996f-2a422d51c096": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Material - Glare - Color",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_width_1": 650,
+              "title_1": "Material",
+              "text_1": "<p>Starts at $40.&lt;br&gt;<\/p><p>We offer CR39, Polycarbonate, Hi-Index 1.67, and Hi-Index 1.74<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "image_width_2": 650,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "image_width_3": 650,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          }
+        },
+        "block_order": [
+          "4c54fd84-23d4-4378-ba3a-154d25e440e3",
+          "2a2ab840-b626-45fd-a7df-c8e30bc7ba69",
+          "b1909595-de33-4dfe-996f-2a422d51c096"
         ],
         "settings": {
           "page_title_enable": false,
