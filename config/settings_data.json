@@ -1061,12 +1061,53 @@
               "button_label": "",
               "layout": "left"
             }
+          },
+          "b3943238-c2f7-427c-a27f-6757bd946fbd": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Real Frames",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_width_1": 650,
+              "title_1": "Heading Filler",
+              "text_1": "<p>text filler<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/eyeglasses-temple-measurement-explained.jpg",
+              "image_width_2": 650,
+              "title_2": "Frame Design & Frame Size",
+              "text_2": "<p>These red frames are designed with a little extra wrapping around to meet the temple, adding a few extra mm to the profile of the frame. <\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/Measure-Eye-Size-on-Glasses-Example.jpg",
+              "image_width_3": 650,
+              "title_3": "Eye Measurement",
+              "text_3": "<p>This measurement is the widest point of the lens. <\/p>",
+              "button_label_3": ""
+            }
+          },
+          "8fcf996d-f136-4827-9f1a-e62e11c299be": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "you got this",
+              "title": "Key Points",
+              "text": "<p>1. If you like &#x27;em, give me a try!<br\/>2. Compare the eye size measurement of your existing optical or sunglasses.<br\/>3. We can make an <a title=\"FAQ\" href=\"\/pages\/faq\">exchange or return<\/a>.<\/p>",
+              "button_label": "",
+              "image": "shopify:\/\/shop_images\/Montrose_Houston_Sunglasses_Krewe_Prescription.jpg",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 550,
+              "parallax": true
+            }
           }
         },
         "block_order": [
           "5bdb050d-356b-4957-8631-9fba1bf04e9c",
           "961cb179-0c80-43b0-8449-e1e2554b88e9",
-          "13b48c87-52be-43c7-9e77-5759e4937561"
+          "13b48c87-52be-43c7-9e77-5759e4937561",
+          "b3943238-c2f7-427c-a27f-6757bd946fbd",
+          "8fcf996d-f136-4827-9f1a-e62e11c299be"
         ],
         "settings": {
           "page_title_enable": false,
