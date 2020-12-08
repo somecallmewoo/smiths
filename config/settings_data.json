@@ -1147,12 +1147,12 @@
           "b1909595-de33-4dfe-996f-2a422d51c096": {
             "type": "text-columns",
             "settings": {
-              "title": "Material - Glare - Color",
+              "title": "Material",
               "align_text": "center",
               "enable_image_1": true,
               "image_width_1": 650,
-              "title_1": "Material CR39",
-              "text_1": "<p>AKA basic plastic. <br\/>If you don&#x27;t NEED your glasses to move through the day, CR39 is a great choice.<\/p>",
+              "title_1": "CR39",
+              "text_1": "<p>AKA basic plastic. <\/p><p><strong>Recommended For<\/strong><br\/>Weak to mild corrections (between SPH +\/- 3.00)<\/p><p><strong>Not Recommended For<\/strong><br\/>Children (use Polycarbonate)<br\/>Strong prescriptions ( ≥ SPH +\/-3.00)<br\/>Frames with an exposed lens (semi-rimless or rimless) because the edges will chip easily with this material.<\/p>",
               "button_label_1": "",
               "enable_image_2": true,
               "image_width_2": 650,
