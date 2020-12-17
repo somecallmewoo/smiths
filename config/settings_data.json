@@ -1144,33 +1144,56 @@
               "enlarge_text": false
             }
           },
-          "b1909595-de33-4dfe-996f-2a422d51c096": {
+          "783bdde2-9751-451a-a171-0128f85fe399": {
             "type": "text-columns",
             "settings": {
-              "title": "Material",
-              "align_text": "center",
-              "enable_image_1": true,
+              "title": "INFO on LENS MATERIALS",
+              "align_text": "left",
+              "enable_image_1": false,
               "image_width_1": 650,
-              "title_1": "CR39",
-              "text_1": "<p>AKA basic plastic. <\/p><p><strong>Recommended For<\/strong><br\/>Weak to mild corrections (between SPH +\/- 3.00)<\/p><p><strong>Not Recommended For<\/strong><br\/>Children (use Polycarbonate)<br\/>Strong prescriptions ( ≥ SPH +\/-3.00)<br\/>Frames with an exposed lens (semi-rimless or rimless) because the edges will chip easily with this material.<\/p>",
+              "title_1": "CR-39",
+              "text_1": "<p>- Affordable<br\/>- Excellent optical quality<br\/>- best for weak or mild corrections (chart below)<\/p><p><strong>BUT... <\/strong><br\/>- chips or scratches easier than other materials<\/p>",
               "button_label_1": "",
-              "enable_image_2": true,
+              "enable_image_2": false,
               "image_width_2": 650,
-              "title_2": "Example title",
-              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "title_2": "Polycarbonate",
+              "text_2": "<p>- shatter resistant<br\/>- lighter &amp; thinner than CR-39<br\/>- <strong>get this for kids!<br\/><\/strong><br\/><\/p><p><strong>BUT... <\/strong><br\/>- Nothing is shatter proof<\/p>",
               "button_label_2": "",
-              "enable_image_3": true,
+              "enable_image_3": false,
               "image_width_3": 650,
-              "title_3": "Example title",
-              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "title_3": "Hi-Index 1.67 or 1.74",
+              "text_3": "<p>- When thin lenses is top priority.<br\/>- Unnecessary if SPH is  between 0.25 and 4.00.<\/p><p><strong>BUT...<br\/><\/strong>- Limited availability for photochromic lenses.<br\/>- 1.74 is not available in a polarized lens.<\/p>",
               "button_label_3": ""
+            }
+          },
+          "345a2951-575b-4d84-8f46-d96152448ac2": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "standard plastic",
+              "title": "CR-39",
+              "text": "<p>- Affordable<br\/>- Excellent optical quality<br\/>- best for weak or mild corrections<\/p><p><strong>BUT...<\/strong><br\/>- chips or scratches easier than other materials<\/p>",
+              "button_label": "",
+              "layout": "left"
+            }
+          },
+          "cbae2f22-424e-4098-a89f-75469be2d8f8": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Prescription lenses",
+              "text": "We'll try to keep this short and sweet!<br>\n<br>\n<b>Why are my lenses thick or heavy?<\/b><br>Many variables affect lens thickness & the weight of your glasses like...<br>\n-lens material<br>\n-prescription strength<br>\n-type of prescription (reading or distance)<br>\n-astigmatism correction (strength and location)<br>\n-frame size\/lens size<br>\n-frame material<br>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": false
             }
           }
         },
         "block_order": [
           "4c54fd84-23d4-4378-ba3a-154d25e440e3",
           "2a2ab840-b626-45fd-a7df-c8e30bc7ba69",
-          "b1909595-de33-4dfe-996f-2a422d51c096"
+          "783bdde2-9751-451a-a171-0128f85fe399",
+          "345a2951-575b-4d84-8f46-d96152448ac2",
+          "cbae2f22-424e-4098-a89f-75469be2d8f8"
         ],
         "settings": {
           "page_title_enable": false,
