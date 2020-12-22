@@ -782,7 +782,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Q&A",
-              "text": "<p>@ The Houston Store<br>\nInsurance<br><\/p>",
+              "text": "<p>For In Store Visitors (Houston)<br>\nInsurance<br>\nLenses<br>\nFrames<br>\nWarranty<br>\nReturns & Exchanges<br><\/p>",
               "align_text": "left"
             }
           },
@@ -790,7 +790,7 @@
             "type": "rich-text",
             "settings": {
               "title": "@ the Store (Houston)",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Our physical store has a much larger selection of eyeglasses and lower average price point. We're able to fill any prescription, single vision or multifocal, as long as it's valid, replace lenses, and more. <em><a href=\"\/pages\/visit\" alt=\"Buy affordable glasses in Houston.\">Directions\/Hours etc<\/a><\/em><\/p><br>\nPlease wear a mask and limit your shopping party to ~2 people.",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>- Larger selection (~2,000+ frames)<br>\n- Replace lenses with your new prescription<br>\n- Buy a frame or bring your own<br>\n- Lower average price<br>\n<br>\n\n<a href=\"\/pages\/visit\" alt=\"visit our houston store\">Directions\/Hours etc<\/a><\/p>",
               "align_text": "left"
             }
           },
@@ -798,21 +798,35 @@
             "type": "question",
             "settings": {
               "title": "How long will my order take?",
-              "text": "We'll contact you as soon as the order has passed quality control and is ready for pickup!<br><br>\n<p><u>Single vision<\/u> lenses typically take a week or less.<br><u>Progressives<\/u> take a bit longer, about a week to 10 days.<br>\n<u>Specialty lenses<\/u> vary based on the order details.<\/p>\n<br><b>TL;DR We'll call you.<\/b>"
+              "text": "Typically a week to 10 days. We'll contact you as soon as it's ready for pickup!"
             }
           },
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e": {
             "type": "question",
             "settings": {
               "title": "Can you adjust my glasses?",
-              "text": "<p>As long as they're made out of prescription ready material, it shouldn't be a problem. <br>Just come on over to the shop and we'll get your frames back to fitting like they're supposed to, instead of falling off your face or giving you a headache.<\/p><br><b>TL;DR Probably, but only at the store.<\/b>"
+              "text": "<p>Yes! We do offer complementary frame adjustments, even if it wasn't purchased here. <br><br>\nFYI - In some cases we're unable to adjust a frame for reasons like frame material or frame design. Unfortunately, this isn't something we can determine over the phone or with a photo alone.<\/p>"
+            }
+          },
+          "969deb85-7a49-4622-9d32-f501feaab406": {
+            "type": "question",
+            "settings": {
+              "title": "Prescription Lenses",
+              "text": "<p>We're able to fill any prescription, single vision or multifocal, as long as it's valid, replace lenses, and more.<br><br>\nSingle Vision starts at $40<br>\nFreeform Digital Progressive starts at $170<\/p>"
+            }
+          },
+          "64ed24ea-b4d9-4d3b-822f-fbf151a87c34": {
+            "type": "question",
+            "settings": {
+              "title": "Non Prescription",
+              "text": "<p>Need to replace the lenses in your favorite sunglasses? We can do that.<\/p>"
             }
           },
           "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9": {
             "type": "rich-text",
             "settings": {
               "title": "Insurance",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Yes, you can use your FSA or HSA card for glasses at our store or online. <\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>You can use your FSA or HSA card for glasses at our store or online. <\/p>",
               "align_text": "left"
             }
           },
@@ -820,14 +834,14 @@
             "type": "question",
             "settings": {
               "title": "Use vision insurance IN STORE",
-              "text": "<p>Ask for an itemized receipt when you pick up your completed order.<\/p>"
+              "text": "<p>For insurance that doesn't use FSA or HSA, Smith's would be considered an out-of-network reimbursement. Ask for an itemized receipt when you pick up your completed order.<\/p>"
             }
           },
           "439a9ec8-c6a4-44bd-8120-e6622a0a1800": {
             "type": "question",
             "settings": {
               "title": "Use vision insurance ONLINE",
-              "text": "<p>Choose \"<em>Health Savings<\/em>\" option at checkout. You'll get an email with a payment link and an itemized receipt upon order completion. <\/p>"
+              "text": "<p>Choose \"<em>Health Savings<\/em>\" option at checkout. You'll get an email with a payment link and an itemized receipt upon order completion.<br><br>\nWe don't participate in VSP or more traditional insurance plans. <em>This allows us to offer a lower price point on all products.<\/em> For these types of plans, a purchase at Smith's would be considered an out-of-network reimbursement. <\/p>"
             }
           },
           "eca62532-5a3c-40ee-8076-c56dd57a7f5b": {
@@ -842,14 +856,14 @@
             "type": "question",
             "settings": {
               "title": "Can you put new lenses in my old glasses?",
-              "text": "<p>Maybe!<br>If the frame is in good shape and made for prescription lenses, than the answer is <u>probably<\/u>, bring it to the shop with your new RX.<\/p>\nWe only offer prescription updates when:<br>- you visit our Houston store or\n- you purchased your frames from us.<br>"
+              "text": "<p>We only offer prescription updates when:<br>\n- you visit our Houston store<br>\n- you purchased your frames from us.<br><\/p>"
             }
           },
           "ac94cc84-275a-46e0-b69e-cae29941556b": {
             "type": "question",
             "settings": {
               "title": "Do you have _____ lenses?",
-              "text": "<p>There are 100's of lens types of lenses and treatments. As such, we regularly test new products and hand pick the best.<\/p>\n<p>That being said, we work with several labs, so if your heart is really set on a specific brand, send us a message and we'll double check availability. <\/p>"
+              "text": "<p>If your heart is really set on a specific brand, send us a message and we'll double check availability. <\/p>"
             }
           },
           "9ced25ec-f05d-4d69-8454-0ea29dcd5f68": {
@@ -871,21 +885,21 @@
             "type": "question",
             "settings": {
               "title": "Can I bring MY frames to YOU?",
-              "text": "<p>You can bring your prescription ready frames to the store, any time.<\/p>"
+              "text": "<p><b>IN STORE<\/b><br>Yes! Come on down to the store and your frame and prescription.<br><br><b>ONLINE<\/b><br> If you purchased the frame here, we can replace the lenses. <a href=\"\/pages\/contact\" alt=\"contact page\">Contact<\/a> us for details.<\/p>"
             }
           },
           "5f7c1414-da70-4233-8e57-b2bd9f052b3a": {
             "type": "question",
             "settings": {
-              "title": "Can you order _____ glasses ?",
-              "text": "<p><b>YES<\/b> If we stock a collection and the frame is available, we're happy to make a special order for you!<br> <br>\nSimilar to clothing, frame styles and colors change with the seasons. So if you love a pair of glasses, consider getting a backup frame sooner rather than later.<\/p>\n<b>NO<\/b> When we don't have an account with that brand, we're unable to order the frame."
+              "title": "Can you order _____  brand glasses ?",
+              "text": "<p><b>YES<\/b> If we stock a collection and the frame is available, we're happy to make a special order for you at no extra charge.<br> <br>\nSimilar to clothing, frame styles and colors change with the seasons. So if you love a pair of glasses, consider getting a backup frame sooner rather than later.<\/p>\n<b>NO<\/b> When we don't have an account with that brand, we're unable to order the frame."
             }
           },
           "4ec0da55-d1a6-4678-b9bd-6ab827bd0dce": {
             "type": "question",
             "settings": {
               "title": "What brands do you stock?",
-              "text": "<p>150+ independent optical collections AND new old stock vintage glasses. <em>Less name recognition, more variety.<\/em><\/p>"
+              "text": "<p>We focus on providing variety and quality over name recognition. <br><br>150+ independent optical collections AND new old stock vintage glasses.<br><br> Brands includ: American Optical, Article One, Dolabany, Fabulous Fannys, Jonathan Cate, KALA, KREWE, NW77th ... <\/p>"
             }
           },
           "e93b7600-267b-4ae3-93bd-e27881621546": {
@@ -899,7 +913,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Warranty",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>We've got your best interest in mind... <br>Please <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us to discuss – photos are super helpful \n [full details]<\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>We've got your best interest in mind... <br>Please <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us to discuss – photos are super helpful.<\/p>",
               "align_text": "left"
             }
           },
@@ -907,7 +921,7 @@
             "type": "question",
             "settings": {
               "title": "Lenses",
-              "text": "<p>We guarantee prescription accuracy.<br><br>\nIf there's an issue, we'll even use a manual lensometer, instead of relying on automatic machines (sometimes poorly calibrated), to help troubleshoot. <br><br>\nCheck out the details of our <a href=\"\/pages\/lenses\" alt=\"problems with prescription &glasses\">prescription lens<\/a> warranties. <em><br>\n<br><b>TL;DR<\/b> Let's talk if you're unhappy or experiencing issues with your lenses.<\/em><\/p>"
+              "text": "<p><b>SINGLE VISION<\/b> <br>Sometimes it can take a week to get used to your new lenses. Especially if you're not wearing them continuously. (1) Don't switch between your old and new RX. (2) If you primarily wear contacts, try to spend some extra time in the new frame <br><br>If you just got your lenses and are having a difficult time adjusting, contact us ASAP!<br><br>\nCheck out the details of our <a href=\"\/pages\/lenses\" alt=\"problems with prescription &glasses\">prescription lens<\/a> warranties. <em><br>\n<br><b>TL;DR<\/b> Let's talk if you're unhappy or experiencing issues with your lenses.<\/em><\/p>"
             }
           },
           "958ee427-d351-44ae-ba60-cf6093859207": {
@@ -957,8 +971,15 @@
             "type": "rich-text",
             "settings": {
               "title": "More Questions?",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Contact us any time for <a href=\"\/pages\/contact\" alt=\"link to contact page for questions about glasses.\">clarity or questions<\/a> we might not have addressed above.<\/p>",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Contact us any time for <a href=\"\/pages\/contact\" alt=\"link to contact page for questions about glasses.\">clarity or questions<\/a> that we might not have addressed above.<\/p>",
               "align_text": "center"
+            }
+          },
+          "828c0302-a6be-4d9f-a35d-93460af1869e": {
+            "type": "question",
+            "settings": {
+              "title": "Specialty or Extra Strong Prescriptions",
+              "text": "<p>No problem. We work with multiple labs to ensure product availability and to accommodate for  <\/p>"
             }
           }
         },
@@ -967,6 +988,8 @@
           "4c3120bb-3512-4d61-99c7-9c86b280b8e5",
           "ed2ed74c-57ec-450a-85d3-ab25f9022b65",
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e",
+          "969deb85-7a49-4622-9d32-f501feaab406",
+          "64ed24ea-b4d9-4d3b-822f-fbf151a87c34",
           "fb1da732-e8c5-4d2a-9331-a0c5fe5b48e9",
           "0549b53f-3347-477a-a009-f2f5bf344060",
           "439a9ec8-c6a4-44bd-8120-e6622a0a1800",
@@ -987,7 +1010,8 @@
           "page-faq-template-3",
           "1745b44b-b508-40e1-9d11-6ac556944cf6",
           "page-faq-template-4",
-          "f151b5fe-3633-4499-9ae8-07422769f87d"
+          "f151b5fe-3633-4499-9ae8-07422769f87d",
+          "828c0302-a6be-4d9f-a35d-93460af1869e"
         ],
         "settings": {
           "page_title_enable": false,
