@@ -778,14 +778,6 @@
       "page-faq-template": {
         "type": "page-faq-template",
         "blocks": {
-          "8180ce27-d076-441f-9fe2-229fed49e378": {
-            "type": "rich-text",
-            "settings": {
-              "title": "Q&A",
-              "text": "<p>For In Store Visitors (Houston)<br>\nInsurance<br>\nLenses<br>\nFrames<br>\nWarranty<br>\nReturns & Exchanges<br><\/p>",
-              "align_text": "left"
-            }
-          },
           "4c3120bb-3512-4d61-99c7-9c86b280b8e5": {
             "type": "rich-text",
             "settings": {
@@ -859,11 +851,25 @@
               "text": "<p>We only offer prescription updates when:<br>\n- you visit our Houston store<br>\n- you purchased your frames from us.<br><\/p>"
             }
           },
+          "828c0302-a6be-4d9f-a35d-93460af1869e": {
+            "type": "question",
+            "settings": {
+              "title": "Specialty or Extra Strong Prescriptions",
+              "text": "<p>No problem. We work with multiple labs to ensure product availability and the ability accommodate all prescription glasses needs.<\/p>"
+            }
+          },
           "ac94cc84-275a-46e0-b69e-cae29941556b": {
             "type": "question",
             "settings": {
               "title": "Do you have _____ lenses?",
               "text": "<p>If your heart is really set on a specific brand, send us a message and we'll double check availability. <\/p>"
+            }
+          },
+          "263d67a4-fa28-43cd-bc4d-7b4b88222fc5": {
+            "type": "question",
+            "settings": {
+              "title": "Do you have therapeutic tints?",
+              "text": "<p>We can fill prescriptions for therapeutic tinted lenses. This includes FL-41 for light sensitivity and to reduce migraines.<br><br>\nIf you're looking for a specific color or have a therapeutic prescription, contact us with details. <\/p>"
             }
           },
           "9ced25ec-f05d-4d69-8454-0ea29dcd5f68": {
@@ -906,65 +912,50 @@
             "type": "question",
             "settings": {
               "title": "Help! My glasses broke!",
-              "text": "<p>Oh no! Review our warranty info and either way, send us a pic. From there, we'll see what we can do.<\/p>"
+              "text": "<p>Oh no! Review our warranty info below and either way, send us a pic. From there, we'll see what we can do.<\/p>"
             }
           },
           "ede776b9-a9ff-4d54-a8f6-8204f1ecb3f2": {
             "type": "rich-text",
             "settings": {
-              "title": "Warranty",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>We've got your best interest in mind... <br>Please <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us to discuss – photos are super helpful.<\/p>",
+              "title": "Warranty - Return - Remake - Exchange",
+              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Standard stuff:<br>\n- 40 days for frame exchanges or returns<br>\n- 40 days for vision issues (remake or exchange)<br>\n- 1 or 2 years for anti-reflective coating, varies by product<br>\n<br>\nIt's important that we keep a clear and honest line of communication. Review the content below and <a href=\"\/pages\/contact\" alt=\"contact Smith's about an eyeglass warranty\">contact<\/a> us if you still have questions or concerns. <\/p>",
               "align_text": "left"
-            }
-          },
-          "79eb8d38-7b85-482b-9c5b-1948f8c439a8": {
-            "type": "question",
-            "settings": {
-              "title": "Lenses",
-              "text": "<p><b>SINGLE VISION<\/b> <br>Sometimes it can take a week to get used to your new lenses. Especially if you're not wearing them continuously. (1) Don't switch between your old and new RX. (2) If you primarily wear contacts, try to spend some extra time in the new frame <br><br>If you just got your lenses and are having a difficult time adjusting, contact us ASAP!<br><br>\nCheck out the details of our <a href=\"\/pages\/lenses\" alt=\"problems with prescription &glasses\">prescription lens<\/a> warranties. <em><br>\n<br><b>TL;DR<\/b> Let's talk if you're unhappy or experiencing issues with your lenses.<\/em><\/p>"
             }
           },
           "958ee427-d351-44ae-ba60-cf6093859207": {
             "type": "question",
             "settings": {
               "title": "Frames",
-              "text": "<p>One year warranty covers defects from materials or workmanship. [full details]<\/p>"
+              "text": "<p><b>RETURN OR EXCHANGE<\/b><br>\n- 40 days for unused eyeglasses<br>\n- Come to the store or <a href=\"\/pages\/contact\">contact us<\/a> for return authorization.<br>\n<br>\n<b>WARRANTY<\/b><br>\nOne year warranty covers defects from materials or workmanship.<em> If the collection offers us a better warranty, we'll certainly pass it on to you!<\/em><br><br>\n<a href=\"\/pages\/contact\" alt=\"warranty contact\">Contact us to start a warranty claim.<\/a>\n<br><br>\nPast one year? Reach out to us, we're still here to help you!<\/p>"
             }
           },
           "1cd074ed-cd42-4aa2-9948-f73d2b044227": {
             "type": "question",
             "settings": {
               "title": "Vintage Frames",
-              "text": "<p>Items from our vintage stock are in excellent shape and ready for your lenses. They're sold \"as is\" and sometimes they're a little wonky from age, that's okay, they'll look much better once adjusted for your face.<br><br> <em>Vintage eyeglasses should NOT be adjusted before lenses are placed in the frame.<\/em> <\/p>\nWe can't order a replacement for your deadstock frame, but we’ll do our best to help you out, promise!<br><b>TL;DR They're vintage and in good shape but might need a little work. We can't order more because... they're vintage.<\/b>"
+              "text": "<p><b>RETURN OR EXCHANGE<\/b><br>\nSame deal as our regular frames.<br>\n- 40 days to return them in their original condition.<br>\n- Come to the store or <a href=\"\/pages\/contact\">contact us<\/a> for return authorization.<br>\n<br>\n<b>WARRANTY<\/b><br>\nIt's rare that we have a warranty issue with our vintage stock but in the case of a problem, <a href=\"\/pages\/contact\" alt=\"vintage warranty\">contact us<\/a>. We can't order a replacement for a deadstock frame, but we’ll do our best to help you out, promise! <br>\n<\/p><hr>\n<br>\nItems from our vintage stock are in excellent or very good condition and ready for your lenses. They're sold \"as is\" and sometimes they're a little crooked from age, that's okay, they'll look much better once adjusted for your face.<br><br> <em>We do not adjust vintage eyeglasses until lenses are placed in the frame.<\/em>"
+            }
+          },
+          "79eb8d38-7b85-482b-9c5b-1948f8c439a8": {
+            "type": "question",
+            "settings": {
+              "title": "Lenses - Vision Issues",
+              "text": "<p><b>REMAKE OR EXCHANGE<\/b><br>Sometimes it can take a week to get used to your new lenses. Especially if you're not wearing them continuously.<br><br>(1) Don't switch between your old and new RX.<br>(2) If you primarily wear contacts, find a day where you can just use your glasses.<br>\n(3) Progressive wearers, you should not have to tilt your head to achieve focus. Contact us ASAP if this is your problem. \n<br><br>If you're still having a difficult time adjusting, <a href=\"\/pages\/contact\">contact us<\/a> ASAP!<br><br>\nThe same 40 day timeframe applies. In the case that 40 days has passed, contact us to see what your options are.\n<\/p>"
             }
           },
           "2bc20038-be62-4d08-a42b-906581dbe5a8": {
             "type": "question",
             "settings": {
               "title": "Anti-reflective Coatings",
-              "text": "<p>The warranty covers manufacture defects, such as peeling or cracking. <em>Check your order to confirm a one or two year warranty for your AR coating.<\/em><br><br>AR coated lenses should be cleaned with the spray and cloth that Smith's provides (FREE) or another microfiber cloth and warm mildly soapy water.<\/p>\nWhile our AR coatings are scratch resistant, there is no scratch proof lens. Using materials other than microfiber or attempting to clean the lens while dry or with harsh chemicals, will result in deterioration.<br>\n<br><b>TL;DR In the event of a quality issue, we'll replace your lenses during the warranty period.<\/b>"
-            }
-          },
-          "page-faq-template-3": {
-            "type": "rich-text",
-            "settings": {
-              "title": "Returns & exchanges",
-              "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div>\n<p>Standard stuff here. Return or exchange unused frames with the case within 30 days for a full refund.<br><br>\n<em>We do not except shipped returns without prior authorization and we only make refunds to the original method of payment.<\/em><\/p>",
-              "align_text": "left"
-            }
-          },
-          "1745b44b-b508-40e1-9d11-6ac556944cf6": {
-            "type": "question",
-            "settings": {
-              "title": "What if 30 days has passed?",
-              "text": "<p>Come on over to the shop or drop us a line with your order # and tell us what's wrong. <\/p>"
+              "text": "<p>The warranty covers manufacture defects, such as peeling or cracking from normal use.<br><br><em>Check your order to confirm a 1 or 2 year warranty for your AR coating.<\/em><br><br>\n- Don't expose your lenses to extreme temperatures like leaving them in the car.<br>\n- We always provide a FREE microfiber cloth and liquid cleaner. <br><br>\nWhile AR coatings are scratch resistant, there is no scratch proof lens. Using materials other than microfiber, attempting to clean the lens while dry or with chemicals, will result in deterioration. <br>\n<br><b>TL;DR<\/b>  In the event of a quality issue, we'll replace your lenses during the warranty period.<\/p>"
             }
           },
           "page-faq-template-4": {
             "type": "question",
             "settings": {
               "title": "How do I send my order back?",
-              "text": "<p><b>IN STORE<\/b> Come on down. <b>ONLINE<\/b> Send us a message with your order # and desired outcome. We'll reply with a shipping label and or sort the details out together.<\/p>"
+              "text": "<p><b>IN STORE<\/b> Come on down to the store.<br><br>\n<b>ONLINE<\/b> Send us a message with your order # and desired outcome. We'll reply with a shipping label and or sort the details out together.<br><br>\n<em>We do not accept returns without prior authorization.<br> Refunds are only made to the original method of payment.<\/em><\/p>"
             }
           },
           "f151b5fe-3633-4499-9ae8-07422769f87d": {
@@ -974,17 +965,9 @@
               "text": "<div style=\"border-top: 2px solid #00A599;\" data-mce-style=\"border-top: 2px solid #00A599;\"><\/div><p>Contact us any time for <a href=\"\/pages\/contact\" alt=\"link to contact page for questions about glasses.\">clarity or questions<\/a> that we might not have addressed above.<\/p>",
               "align_text": "center"
             }
-          },
-          "828c0302-a6be-4d9f-a35d-93460af1869e": {
-            "type": "question",
-            "settings": {
-              "title": "Specialty or Extra Strong Prescriptions",
-              "text": "<p>No problem. We work with multiple labs to ensure product availability and to accommodate for  <\/p>"
-            }
           }
         },
         "block_order": [
-          "8180ce27-d076-441f-9fe2-229fed49e378",
           "4c3120bb-3512-4d61-99c7-9c86b280b8e5",
           "ed2ed74c-57ec-450a-85d3-ab25f9022b65",
           "959f5492-a1a5-43ee-9a3b-72e394d10b7e",
@@ -995,7 +978,9 @@
           "439a9ec8-c6a4-44bd-8120-e6622a0a1800",
           "eca62532-5a3c-40ee-8076-c56dd57a7f5b",
           "ae632e84-d74c-444c-9f4b-1682ed25b7b5",
+          "828c0302-a6be-4d9f-a35d-93460af1869e",
           "ac94cc84-275a-46e0-b69e-cae29941556b",
+          "263d67a4-fa28-43cd-bc4d-7b4b88222fc5",
           "9ced25ec-f05d-4d69-8454-0ea29dcd5f68",
           "92191f43-1955-4f59-b4af-70f593460d8a",
           "9581ebcd-4cb2-4ca0-8fce-e41608962fa5",
@@ -1003,15 +988,12 @@
           "4ec0da55-d1a6-4678-b9bd-6ab827bd0dce",
           "e93b7600-267b-4ae3-93bd-e27881621546",
           "ede776b9-a9ff-4d54-a8f6-8204f1ecb3f2",
-          "79eb8d38-7b85-482b-9c5b-1948f8c439a8",
           "958ee427-d351-44ae-ba60-cf6093859207",
           "1cd074ed-cd42-4aa2-9948-f73d2b044227",
+          "79eb8d38-7b85-482b-9c5b-1948f8c439a8",
           "2bc20038-be62-4d08-a42b-906581dbe5a8",
-          "page-faq-template-3",
-          "1745b44b-b508-40e1-9d11-6ac556944cf6",
           "page-faq-template-4",
-          "f151b5fe-3633-4499-9ae8-07422769f87d",
-          "828c0302-a6be-4d9f-a35d-93460af1869e"
+          "f151b5fe-3633-4499-9ae8-07422769f87d"
         ],
         "settings": {
           "page_title_enable": false,
