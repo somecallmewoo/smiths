@@ -4,7 +4,7 @@
     "color_body_text": "#555150",
     "color_price": "#1c1d1d",
     "color_savings_text": "#00b9ff",
-    "color_borders": "#e8e8e1",
+    "color_borders": "rgba(0,0,0,0)",
     "color_button": "#74c830",
     "color_button_text": "#ffffff",
     "color_sale_tag": "rgba(0,0,0,0)",
@@ -149,16 +149,16 @@
           "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
           "main_menu_alignment": "center-split",
-          "header_style": "sticky",
+          "header_style": "normal",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
           "announcement_above_header": false,
           "toolbar_menu": "",
           "toolbar_social": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false
         }
       },
       "footer": {
@@ -169,7 +169,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 33
+              "container_width": 25
             }
           },
           "7bbd4838-f5a8-487f-87a7-9ef8bf99300f": {
@@ -177,23 +177,32 @@
             "settings": {
               "show_footer_title": false,
               "menu": "shop",
-              "container_width": 33
+              "container_width": 25
             }
           },
-          "1494292487693": {
-            "type": "newsletter",
+          "c9219ff2-08ff-47fa-854b-a13a0a80cb16": {
+            "type": "logo_social",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/smiths-opticians-Houston-glasses-logo.png",
+              "desktop_logo_height": 120,
+              "container_width": 25
+            }
+          },
+          "1c9e0ee1-0d03-4699-b110-d8d4a21b7f21": {
+            "type": "custom",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up",
-              "text": "<p>Periodic messages and 1st looks.<\/p>",
-              "container_width": 33
+              "title": "no appointment needed",
+              "text": "<p>4313 Austin St<br\/>Houston, TX 77004<br\/><br\/>M-F 10:30 - 6<br\/>Sat 11- 4<\/p><p>Carefully selected new and vintage eyewear<\/p>",
+              "container_width": 25
             }
           }
         },
         "block_order": [
           "1494301487049",
           "7bbd4838-f5a8-487f-87a7-9ef8bf99300f",
-          "1494292487693"
+          "c9219ff2-08ff-47fa-854b-a13a0a80cb16",
+          "1c9e0ee1-0d03-4699-b110-d8d4a21b7f21"
         ],
         "settings": {
           "show_locale_selector": false,
@@ -396,7 +405,7 @@
               "image": "shopify:\/\/shop_images\/Smiths_Glasses_Building.jpg",
               "image_width": 500,
               "subtitle": "you can't miss us",
-              "title": "at the corner of Austin and Wheeler",
+              "title": "at the corner of Austin & Wheeler St.",
               "text": "",
               "button_label": "Contact",
               "button_link": "shopify:\/\/pages\/contact",
@@ -436,12 +445,12 @@
               "top_subheading": "",
               "title": " \n \n \n \n <br>",
               "title_size": 40,
-              "subheading": "IRL or Virtual",
+              "subheading": "",
               "link": "shopify:\/\/pages\/visit",
               "link_text": "visit us",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "shop online",
-              "color_accent": "#000000",
+              "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/My_Post_4.jpg",
               "focal_point": "center center"
@@ -458,7 +467,7 @@
               "link_text": "Shop all",
               "link_2": "shopify:\/\/pages\/visit",
               "link_text_2": "Visit Us",
-              "color_accent": "#000000",
+              "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/2020-Smiths-FSA-HSA-Insurance-Glasses.jpg",
               "focal_point": "bottom center"
@@ -650,7 +659,7 @@
         "settings": {
           "full_width": true,
           "gutter_size": 18,
-          "space_above": true,
+          "space_above": false,
           "space_below": true
         }
       },
@@ -662,34 +671,6 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
-        "blocks": {
-          "9005b88c-01c1-47b5-9e59-00b0ba62c13f": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/prescription-glasses-how-to-choose-lenses-carlos_3bec4348-2e7a-401b-b50c-d1cf76c46e74.jpg",
-              "title": "Prescription Lenses",
-              "text": "<p>We&#x27;ve been doing that for over 50 years.<\/p>",
-              "button_label": "Learn More",
-              "button_link": "shopify:\/\/pages\/rx-lenses"
-            }
-          },
-          "508ffc3b-4ffe-4dd6-829d-e646906f7d04": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/help-choosing-prescription-glasses-affordable-google-eyes.jpg",
-              "title": "Add your new RX",
-              "text": "<p>Want to replace the lenses in your favorite frame?<\/p>",
-              "button_label": "Come on down",
-              "button_link": "shopify:\/\/pages\/visit"
-            }
-          }
-        },
-        "block_order": [
-          "9005b88c-01c1-47b5-9e59-00b0ba62c13f",
-          "508ffc3b-4ffe-4dd6-829d-e646906f7d04"
-        ],
         "settings": {
           "hide_homepage": true,
           "image_size": "wide"
@@ -761,7 +742,7 @@
           "page-contact-template-0": {
             "type": "contact-form",
             "settings": {
-              "title": "",
+              "title": "Send a Message",
               "show_phone": false,
               "narrow_column": true
             }
@@ -1205,10 +1186,22 @@
           "page_title_enable": false,
           "page_content_enable": false
         }
+      },
+      "160876319115ed4251": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Carefully Selected New & Vintage Eyewear",
+          "text": "<p>established in 1968<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "1524769873765",
+      "160876319115ed4251",
       "1525912530555",
       "16067771376b0a5eae",
       "160677789553a14cf3"
