@@ -1,212 +1,441 @@
-{%- assign per_row = section.settings.per_row -%}
-{%- assign paginate_by = per_row | times: section.settings.rows_per_page -%}
-
-{%- paginate collection.products by paginate_by -%}
-
-<div
-  id="CollectionSection"
-  data-section-id="{{ section.id }}"
-  data-section-type="collection-template">
-
-  {%- if section.settings.description_position == 'top' -%}
-    {%- if collection.description != blank -%}
-      <div class="rte">
-        {{ collection.description }}
-      </div>
-      <hr class="hr--clear hr--small">
-    {%- endif -%}
-  {%- endif -%}
-
-  {%- if section.settings.subcollection_style == 'above' -%}
-    {%- render 'subcollections', per_row: section.settings.subcollections_per_row -%}
-  {%- endif -%}
-
-  <div class="collection-filter">
-    {%- assign current_filter_size = current_tags | size -%}
-    <div class="collection-filter__item collection-filter__item--drawer">
-      <button
-        type="button"
-        class="js-drawer-open-collection-filters btn btn--tertiary{% unless current_filter_size == 0 %} btn--tertiary-active{% endunless %}"
-        aria-controls="FilterDrawer">
-        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-filter" viewBox="0 0 64 64"><path d="M48 42h10M48 42a5 5 0 1 1-5-5 5 5 0 0 1 5 5zM7 42h31M16 22H6M16 22a5 5 0 1 1 5 5 5 5 0 0 1-5-5zM57 22H26"/></svg>
-        {{ 'collections.filters.title_tags' | t }}
-        {%- if current_filter_size > 0 -%}
-          ({{ current_filter_size }})
+<!-- /templates/collection.liquid -->
+{%- if section.settings.show_collection_image and collection.image -%}
+  <div class="collection-hero">
+    <noscript>
+      <div class="collection-hero__image-no-js" style="background-image:url({{ collection.image | img_url: '2048x2048' }});"></div>
+    </noscript>
+    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    {%- comment -%}
+      If the collection.image height is < 70% of its width on mobile or < 45% on desktop,
+      we crop the container to make sure it's the same height as the image.
+    {%- endcomment -%}
+    {%- assign height_width_ratio = 100 | divided_by: collection.image.aspect_ratio | floor -%}
+    {%- if height_width_ratio < 70 -%}
+      <style>
+        {%- if height_width_ratio < 45 -%}
+          .collection-hero__image-wrapper::after {
+            padding-bottom: {{ height_width_ratio }}%;
+          }
+        {%- else -%}
+          @media screen and (max-width: 768px) {
+            .collection-hero__image-wrapper::after {
+              padding-bottom: {{ height_width_ratio }}%;
+            }
+          }
         {%- endif -%}
-      </button>
+      </style>
+    {%- endif -%}
+    <div class="collection-hero__image-wrapper">
+      <img class="collection-hero__image lazyload"
+        src="{{ collection.image | img_url: '300x' }}"
+        data-src="{{ img_url }}"
+        data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048, 4472]"
+        data-aspectratio="{{ collection.image.aspect_ratio }}"
+        data-sizes="auto"
+        data-parent-fit="cover"
+        alt="{{ collection.image.alt | escape }}">
     </div>
+  </div>
+{%- endif -%}
 
-    <div class="collection-filter__item collection-filter__item--count small--hide">
-      {%- if section.settings.enable_collection_count -%}
-        {{ 'collections.general.items_with_count' | t: count: collection.products_count }}
+<div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template" data-grid-type="{{ section.settings.collection_products_grid }}">
+  {%- paginate collection.products by 12 -%}
+  <header class="section-header text-center">
+    <h1>{{ collection.title }}</h1>
+    <hr class="hr--small">
+    {%- if collection.description != blank -%}
+      <div class="grid">
+        <div class="grid__item">
+          <div class="rte">
+            {{ collection.description }}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    <div class="grid--full collection-sorting{% if section.settings.collection_sort_enable %} collection-sorting--enabled{% endif %}">
+      {%- if section.settings.collection_sort_enable -%}
+        {%- include 'collection-sorting' -%}
       {%- endif -%}
     </div>
 
-    <div class="collection-filter__item collection-filter__item--sort">
-      <div class="collection-filter__sort-container">
-        {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-        <label for="SortBy" class="hidden-label">{{ 'collections.sorting.title' | t }}</label>
-        <select name="SortBy" id="SortBy" data-default-sortby="{{ collection.default_sort_by }}">
-          <option value="title-ascending"{% if sort_by == collection.default_sort_by %} selected="selected"{% endif %}>{{ 'collections.sorting.title' | t }}</option>
-          {%- for option in collection.sort_options -%}
-            <option value="{{ option.value }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name }}</option>
+    {%- if section.settings.collection_tags_enable -%}
+      {%- if collection.all_tags.size > 0 -%}
+        {%- if section.settings.collection_sort_enable -%}
+          <hr class="hr--small hr--clear">
+        {%- endif -%}
+        <ul class="tags tags--collection inline-list">
+          {% comment %}
+            Used for the catalog collection (/collections/all) and product collections (collections/{collection.handle})
+          {% endcomment %}
+          <li{% unless current_tags %} class="tag--active"{% endunless %}>
+            <a href="{% if collection.url == blank %}{{ routes.all_products_collection_url }}{% else %}{{ collection.url }}{% endif %}">
+              {{ 'collections.general.all_of_collection' | t }}
+            </a>
+          </li>
+
+          {%- for tag in collection.all_tags -%}
+            {%- if current_tags contains tag -%}
+              <li class="tag--active">
+                {{ tag | link_to_remove_tag: tag }}
+              </li>
+            {%- else -%}
+              <li>
+                {% comment %}
+                  Use link_to_add_tag if you want to allow filtering
+                  by multiple tags
+                {% endcomment %}
+                {{ tag | link_to_tag: tag }}
+              </li>
+            {%- endif -%}
           {%- endfor -%}
-        </select>
-      </div>
+        </ul>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if section.settings.collection_tags_enable -%}
+      <hr class="hr--small hr--clear">
+    {%- endif -%}
+  </header>
+
+  {%- if section.settings.collection_products_grid == 'collage' -%}
+    <div class="grid grid-collage">
+      {% comment %}
+        Loop through our products in the current collection.
+        See the snippet 'snippets/product-grid-collage.liquid'.
+
+        `is_reverse_row__product`, `three_row_index__product`, `collection_product_count`, and `divisible_by_three__product` are
+        all used by 'snippets/product-grid-collage.liquid'
+      {% endcomment %}
+      {%- assign is_reverse_row__product = false -%}
+      {%- assign three_row_index__product = 0 -%}
+      {%- assign collection_product_count__product = collection.products.size -%}
+      {%- assign divisible_by_three__product = collection_product_count__product | modulo:3 -%}
+      {%- for product in collection.products -%}
+      	{% assign color_active = false %}
+        {% for option in product.options %}
+          {% if option == 'Color' %}
+             {% assign color_active = true %}
+          {% endif %}
+        {% endfor %}
+        {% if product.variants.size > 1 and color_active == true %}
+        {% for option in product.options %}
+           {% if option == 'Color' %}
+           {% assign index = forloop.index0 %}
+           {% assign colorlist = '' %}
+           {% assign color = '' %}
+           {% for variant in product.variants %}
+           {% capture color %}
+           {{ variant.options[index] }}
+           {% endcapture %}
+
+             {% unless colorlist contains color %}
+        		{%- include 'product-grid-collage-variant' -%}
+      		 {% capture tempList %}
+          {{colorlist | append: color | append: " " }}
+          {% endcapture %}
+          {% assign colorlist = tempList %}
+          {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% else %}
+        {%- include 'product-grid-collage' -%}
+      {% endif %}
+      {%- else -%}
+
+        {%- if shop.products_count == 0 -%}
+          {% comment %}
+            Add default products to help with onboarding for collections/all only
+          {% endcomment %}
+          {% include 'onboarding-featured-products' -%}
+        {%- else -%}
+          {% comment %}
+            If collection exists but is empty, display message
+          {% endcomment %}
+          <div class="grid__item text-center">
+            <p>{{ 'collections.general.no_matches' | t }}</p>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+
     </div>
-  </div>
+  {%- elsif section.settings.collection_products_grid == 'grid' -%}
+    <div class="grid-uniform">
+      {%- assign grid_item_width = 'medium--one-half large--one-third' -%}
+      {%- for product in collection.products -%}
+      	{% assign color_active = false %}
+        {% for option in product.options %}
+          {% if option == 'Color' %}
+             {% assign color_active = true %}
+          {% endif %}
+        {% endfor %}
+        {% if product.variants.size > 1 and color_active == true %}
+        {% for option in product.options %}
+           {% if option == 'Color' %}
+           {% assign index = forloop.index0 %}
+           {% assign colorlist = '' %}
+           {% assign color = '' %}
+           {% for variant in product.variants %}
+           {% capture color %}
+           {{ variant.options[index] }}
+           {% endcapture %}
 
-  {%- if section.settings.enable_collection_count -%}
-    <p class="medium-up--hide text-center" data-scroll-to>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
-  {%- endif -%}
-
-  <div
-    class="grid grid--uniform grid--collection{% if section.settings.mobile_flush_grid %} small--grid--flush{% endif %}"{% unless section.settings.enable_collection_count %} data-scroll-to{% endunless %}>
-    {%- liquid
-      assign grid_item_width = 'small--one-half medium-up--one-third'
-
-      case per_row
-        when 2
-          assign grid_item_width = 'medium-up--one-half'
-        when 3
-          assign grid_item_width = 'small--one-half medium-up--one-third'
-        when 4
-          assign grid_item_width = 'small--one-half medium-up--one-quarter'
-        when 5
-          assign grid_item_width = 'small--one-half medium-up--one-fifth'
-      endcase
-    -%}
-
-    {%- for product in collection.products -%}
-      {%- render 'product-grid-item', product: product, grid_item_width: grid_item_width -%}
-    {%- else -%}
-      <div class="grid__item">
-        <p>{{ 'collections.general.no_matches' | t }}</p>
-      </div>
-    {%- endfor -%}
-
-  </div>
-
-  {%- if section.settings.subcollection_style == 'below' -%}
-    {%- render 'subcollections', per_row: section.settings.subcollections_per_row -%}
+             {% unless colorlist contains color %}
+        		{%- include 'product-grid-item-variant' -%}
+      		 {% capture tempList %}
+          {{colorlist | append: color | append: " " }}
+          {% endcapture %}
+          {% assign colorlist = tempList %}
+          {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% else %}
+      {%- include 'product-grid-item' -%}
+      {% endif %}
+      {%- else -%}
+        {%- if collection.handle == 'all' -%}
+          {% comment %}
+            Add default products to help with onboarding for collections/all only
+          {% endcomment %}
+          {%- include 'onboarding-featured-products' -%}
+        {%- else -%}
+          {% comment %}
+            If collection exists but is empty, display message
+          {% endcomment %}
+          <div class="grid__item text-center">
+            <p>{{ 'collections.general.no_matches' | t }}</p>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
   {%- endif -%}
 
   {%- if paginate.pages > 1 -%}
-    {%- render 'pagination', paginate: paginate -%}
+    {%- include 'pagination' -%}
   {%- endif -%}
 
-  {%- if section.settings.description_position == 'bottom' -%}
-    {%- if collection.description != blank -%}
-      <hr class="hr--clear hr--small">
-      <div class="rte">
-        {{ collection.description }}
-      </div>
-      <hr class="hr--clear hr--small">
-    {%- endif -%}
-  {%- endif -%}
-
-  {%- if settings.quick_shop_enable -%}
-    {%- for product in collection.products -%}
-      {%- if product.available -%}
-        {%- render 'quick-shop-modal', product: product -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
+  {%- endpaginate -%}
 </div>
 
-{%- endpaginate -%}
+
 
 {% schema %}
-  {
-    "name": "Collection pages",
-    "settings": [
-      {
-        "type": "select",
-        "id": "description_position",
-        "label": "Collection description position",
-        "default": "top",
-        "options": [
-          {
-            "value": "top",
-            "label": "Top"
-          },
-          {
-            "value": "bottom",
-            "label": "Bottom"
-          }
-        ]
+{
+  "name": {
+    "da": "Kollektionssider",
+    "de": "Kategorieseiten",
+    "en": "Collection pages",
+    "es": "Páginas de colección",
+    "fi": "Kokoelman sivut",
+    "fr": "Pages de collection",
+    "hi": "कलेक्शन पेज",
+    "it": "Pagine di collezioni",
+    "ja": "コレクションページ",
+    "ko": "컬렉션 페이지",
+    "nb": "Samlingssider",
+    "nl": "Collectiepagina's",
+    "pt-BR": "Páginas de coleções",
+    "pt-PT": "Páginas de coleções",
+    "sv": "Produktseriesidor",
+    "th": "หน้าคอลเลกชัน",
+    "zh-CN": "产品系列页面",
+    "zh-TW": "商品系列頁面"
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "label": {
+        "da": "Vis kollektionsbillede",
+        "de": "Kategorie-Foto anzeigen",
+        "en": "Show collection image",
+        "es": "Mostrar imagen de la colección",
+        "fi": "Näytä kokoelman kuva",
+        "fr": "Afficher l'image de la collection",
+        "hi": "कलेक्शन इमेज दिखाएं",
+        "it": "Mostra immagine collezione",
+        "ja": "コレクションの画像を表示する",
+        "ko": "컬렉션 이미지 표시",
+        "nb": "Vis samlingsbilde",
+        "nl": "Collectieafbeelding weergeven",
+        "pt-BR": "Exibir imagem da coleção",
+        "pt-PT": "Mostrar imagem da coleção",
+        "sv": "Visa produktseriebilder",
+        "th": "แสดงรูปภาพคอลเลกชัน",
+        "zh-CN": "显示产品系列图片",
+        "zh-TW": "顯示商品系列圖片"
       },
-      {
-        "type": "header",
-        "content": "Subcollections"
-      },
-      {
-        "type": "paragraph",
-        "content": "Links to collections from your menu will appear here. [Learn more](https://archetypethemes.co/blogs/impulse/how-do-i-create-subcollections)"
-      },
-      {
-        "type": "select",
-        "id": "subcollection_style",
-        "label": "Subcollection style",
-        "default": "above",
-        "options": [
-          {
-            "value": "above",
-            "label": "Above products"
-          },
-          {
-            "value": "below",
-            "label": "Below products"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
-      {
-        "type": "range",
-        "id": "subcollections_per_row",
-        "label": "Subcollections per row",
-        "default": 5,
-        "min": 2,
-        "max": 5,
-        "step": 1
-      },
-      {
-        "type": "header",
-        "content": "Products"
-      },
-      {
-        "type": "checkbox",
-        "id": "enable_collection_count",
-        "label": "Enable collection count",
-        "default": true
-      },
-      {
-        "type": "range",
-        "id": "per_row",
-        "label": "Products per row",
-        "default": 4,
-        "min": 2,
-        "max": 5,
-        "step": 1
-      },
-      {
-        "type": "range",
-        "id": "rows_per_page",
-        "label": "Rows per page",
-        "default": 7,
-        "min": 3,
-        "max": 20,
-        "step": 1
-      },
-      {
-        "type": "checkbox",
-        "id": "mobile_flush_grid",
-        "label": "Flush grid on mobile",
-        "default": false
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_sort_enable",
+      "label": {
+        "da": "Aktivér sortering af kollektioner",
+        "de": "Kategoriesortierung aktivieren",
+        "en": "Enable collection sorting",
+        "es": "Habilitar la la función ordenar colecciones",
+        "fi": "Ota kokoelman lajittelu käyttöön",
+        "fr": "Activer le tri de la collection",
+        "hi": "कलेक्शन क्रमबद्ध करना सक्षम करें",
+        "it": "Abilita ordinamento collezione",
+        "ja": "コレクションの並べ替えを有効にする",
+        "ko": "컬렉션 정렬 사용",
+        "nb": "Aktiver sortering av samlinger",
+        "nl": "Sorteren op collectie inschakelen",
+        "pt-BR": "Habilitar a organização de coleções",
+        "pt-PT": "Ativar ordenação de coleção",
+        "sv": "Aktivera produktseriesortering",
+        "th": "เปิดใช้การเรียงลำดับคอลเลกชัน",
+        "zh-CN": "启用产品系列排序",
+        "zh-TW": "啟用商品系列排序功能"
       }
-    ]
-  }
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_tags_enable",
+      "label": {
+        "da": "Aktivér tagfiltrering",
+        "de": "Tag-Filtern erlauben",
+        "en": "Enable tag filtering",
+        "es": "Habilitar filtro de etiquetas",
+        "fi": "Ota tunnisteiden suodatus käyttöön",
+        "fr": "Activer le filtrage par balises",
+        "hi": "टैग फ़िल्टर करना सक्षम करें",
+        "it": "Attiva filtro tag",
+        "ja": "タグでの絞り込みを有効にする",
+        "ko": "태그 필터링 사용",
+        "nb": "Aktiver taggfiltrering",
+        "nl": "Filteren op tags inschakelen",
+        "pt-BR": "Habilitar filtragem de tag",
+        "pt-PT": "Ativar filtragem por etiqueta",
+        "sv": "Aktivera taggfiltrering",
+        "th": "เปิดใช้การกรองแท็ก",
+        "zh-CN": "启用标签筛选",
+        "zh-TW": "啟用標籤篩選功能"
+      }
+    },
+    {
+      "type": "header",
+      "content": {
+        "da": "Produkter",
+        "de": "Produkte",
+        "en": "Products",
+        "es": "Productos",
+        "fi": "Tuotteet",
+        "fr": "Produits",
+        "hi": "उत्पाद",
+        "it": "Prodotti",
+        "ja": "商品管理",
+        "ko": "제품",
+        "nb": "Produkter",
+        "nl": "Producten",
+        "pt-BR": "Produtos",
+        "pt-PT": "Produtos",
+        "sv": "Produkter",
+        "th": "สินค้า",
+        "zh-CN": "产品",
+        "zh-TW": "產品"
+      }
+    },
+    {
+      "type": "select",
+      "id": "collection_products_grid",
+      "label": {
+        "da": "Gittertypografi",
+        "de": "Rasterstil",
+        "en": "Grid style",
+        "es": "Estilo de cuadrícula",
+        "fi": "Ruudukon tyyli",
+        "fr": "Style de grille",
+        "hi": "ग्रिड स्टाइल",
+        "it": "Stile griglia",
+        "ja": "グリッドスタイル",
+        "ko": "그리드 스타일",
+        "nb": "Rutenettstil",
+        "nl": "Rasterstijl",
+        "pt-BR": "Estilo da grade",
+        "pt-PT": "Estilo da grelha",
+        "sv": "Rutnätsstil",
+        "th": "สไตล์กริด",
+        "zh-CN": "网格样式",
+        "zh-TW": "網格樣式"
+      },
+      "options": [
+        {
+          "value": "collage",
+          "label": {
+            "da": "Collage",
+            "de": "Collage",
+            "en": "Collage",
+            "es": "Collage",
+            "fi": "Kollaasi",
+            "fr": "Collage",
+            "hi": "कोलाज",
+            "it": "Collage",
+            "ja": "コラージュ",
+            "ko": "콜라주",
+            "nb": "Fotomontasje",
+            "nl": "Collage",
+            "pt-BR": "Colagem",
+            "pt-PT": "Colagem",
+            "sv": "Kollage",
+            "th": "ภาพตัดแปะ",
+            "zh-CN": "拼贴画",
+            "zh-TW": "拼貼"
+          }
+        },
+        {
+          "value": "grid",
+          "label": {
+            "da": "Gitter",
+            "de": "Raster",
+            "en": "Grid",
+            "es": "Cuadrícula",
+            "fi": "Ruudukko",
+            "fr": "Grille",
+            "hi": "ग्रिड",
+            "it": "Griglia",
+            "ja": "グリッド",
+            "ko": "그리드",
+            "nb": "Rutenett",
+            "nl": "Raster",
+            "pt-BR": "Grade",
+            "pt-PT": "Grelha",
+            "sv": "Rutnät",
+            "th": "กริด",
+            "zh-CN": "网格",
+            "zh-TW": "網格"
+          }
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "product_vendor_enable",
+      "label": {
+        "da": "Vis produktleverandør",
+        "de": "Produktanbieter anzeigen",
+        "en": "Show product vendor",
+        "es": "Mostrar proveedor del producto",
+        "fi": "Näytä tuotteen myyjä",
+        "fr": "Afficher le distributeur du produit",
+        "hi": "उत्पाद विक्रेता दिखाएं",
+        "it": "Indica fornitore prodotto",
+        "ja": "商品の販売元を表示する",
+        "ko": "제품 공급 업체 표시",
+        "nb": "Vis produktleverandør",
+        "nl": "Productleverancier weergeven",
+        "pt-BR": "Exiba o fornecedor do produto",
+        "pt-PT": "Mostrar o fornecedor do produto",
+        "sv": "Visa produktsäljare",
+        "th": "แสดงผู้ขายสินค้า",
+        "zh-CN": "显示产品厂商",
+        "zh-TW": "顯示產品廠商"
+      }
+    }
+  ]
+}
 {% endschema %}
